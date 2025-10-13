@@ -111,7 +111,7 @@
           "type": "instruction",
           "path": "instruction/fossil-fuel-power-plants/fossil-fuel-power-plants.md",
           "id": "9446a69e-704c-4a71-8772-c728849ecd0f",
-          "state": "stub",
+          "state": "stable",
           "description": "Coal, natural gas, and oil-fired power generation."
         },
         {
