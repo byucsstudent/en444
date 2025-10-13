@@ -672,7 +672,7 @@
           "type": "instruction",
           "path": "instruction/distributed-control/distributed-control.md",
           "id": "0528f59b-b707-4f72-9497-feacdf4dc591",
-          "state": "stub",
+          "state": "stable",
           "description": "Decentralized control systems for improved resilience."
         },
         {
