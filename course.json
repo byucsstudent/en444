@@ -228,7 +228,7 @@
           "type": "instruction",
           "path": "instruction/high-voltage-dc-transmission/high-voltage-dc-transmission.md",
           "id": "011e811d-f818-48f7-a3ed-6240ccd0dfc8",
-          "state": "stub",
+          "state": "stable",
           "description": "HVDC technology and applications."
         },
         {
