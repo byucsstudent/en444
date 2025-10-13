@@ -292,7 +292,7 @@
           "type": "instruction",
           "path": "instruction/power-quality-issues/power-quality-issues.md",
           "id": "7068ccb5-2b53-4aa8-a9cf-6fc6c05416a9",
-          "state": "stub",
+          "state": "stable",
           "description": "Harmonics, voltage sags, and other power quality disturbances."
         },
         {
