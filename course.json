@@ -34,7 +34,7 @@
           "type": "instruction",
           "path": "instruction/single-phase-and-three-phase-systems/single-phase-and-three-phase-systems.md",
           "id": "39ec4ce5-6e75-4b4a-811a-0910c7f6c543",
-          "state": "stub",
+          "state": "stable",
           "description": "Understanding different power system configurations."
         },
         {
