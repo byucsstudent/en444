@@ -571,7 +571,7 @@
           "type": "instruction",
           "path": "instruction/grid-scale-energy-storage/grid-scale-energy-storage.md",
           "id": "cd8a93e1-883e-4948-a83b-1500bdf5d93f",
-          "state": "stub",
+          "state": "stable",
           "description": "Large-scale energy storage systems for grid support."
         },
         {
