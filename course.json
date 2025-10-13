@@ -1,149 +1,813 @@
 {
   "title": "Intro to electrical power",
-  "description": "This course provides an introduction to electrical power systems, covering topics from power generation and transmission to distribution, storage, renewable energy integration, grid resilience, and future trends. It explores the technologies, challenges, and opportunities shaping the modern power grid.",
+  "links": {},
   "modules": [
     {
       "title": "Fundamentals of Electrical Power Systems",
-      "description": "This module introduces the basic concepts of electrical power systems, including power generation, transmission, distribution, and utilization.",
       "topics": [
-        { "title": "Overview", "description": "Course introduction and objectives.", "path": "README.md", "type": "instruction", "state": "stable" },
-        { "title": "Basic Electrical Concepts", "description": "Voltage, current, power, and energy.", "path": "instruction/basic-electrical-concepts/basic-electrical-concepts.md", "type": "instruction", "state": "stub" },
-        { "title": "AC and DC Power", "description": "Alternating current vs. direct current.", "path": "instruction/ac-and-dc-power/ac-and-dc-power.md", "type": "instruction", "state": "stub" },
-        { "title": "Single-Phase and Three-Phase Systems", "description": "Understanding different power system configurations.", "path": "instruction/single-phase-and-three-phase-systems/single-phase-and-three-phase-systems.md", "type": "instruction", "state": "stub" },
-        { "title": "Power Factor", "description": "Definition, importance, and correction methods.", "path": "instruction/power-factor/power-factor.md", "type": "instruction", "state": "stub" },
-        { "title": "Impedance and Reactance", "description": "Understanding the opposition to current flow in AC circuits.", "path": "instruction/impedance-and-reactance/impedance-and-reactance.md", "type": "instruction", "state": "stub" },
-        { "title": "Power System Components", "description": "Introduction to generators, transformers, and transmission lines.", "path": "instruction/power-system-components/power-system-components.md", "type": "instruction", "state": "stub" },
-        { "title": "Per-Unit System", "description": "Simplifying power system calculations.", "path": "instruction/per-unit-system/per-unit-system.md", "type": "instruction", "state": "stub" },
-        { "title": "Power System Protection", "description": "Overview of protection schemes and devices.", "path": "instruction/power-system-protection/power-system-protection.md", "type": "instruction", "state": "stub" },
-        { "title": "Power System Stability", "description": "Introduction to transient and steady-state stability.", "path": "instruction/power-system-stability/power-system-stability.md", "type": "instruction", "state": "stub" },
-        { "title": "Introduction to Power System Analysis", "description": "An overview of load flow, short circuit, and stability analysis.", "path": "instruction/introduction-to-power-system-analysis/introduction-to-power-system-analysis.md", "type": "instruction", "state": "stub" },
-        { "title": "Symmetrical Components", "description": "Understanding sequence networks.", "path": "instruction/symmetrical-components/symmetrical-components.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "Overview",
+          "type": "instruction",
+          "path": "README.md",
+          "id": "f07e8fae-3354-45b1-b8c1-7fdac2750d48",
+          "state": "stable",
+          "description": "Course introduction and objectives."
+        },
+        {
+          "title": "Basic Electrical Concepts",
+          "type": "instruction",
+          "path": "instruction/basic-electrical-concepts/basic-electrical-concepts.md",
+          "id": "ebc47cef-749e-4427-ae32-29a8b8c6dad4",
+          "state": "stable",
+          "description": "Voltage, current, power, and energy."
+        },
+        {
+          "title": "AC and DC Power",
+          "type": "instruction",
+          "path": "instruction/ac-and-dc-power/ac-and-dc-power.md",
+          "id": "30c33694-200b-4d29-87e1-e6d579d92574",
+          "state": "stub",
+          "description": "Alternating current vs. direct current."
+        },
+        {
+          "title": "Single-Phase and Three-Phase Systems",
+          "type": "instruction",
+          "path": "instruction/single-phase-and-three-phase-systems/single-phase-and-three-phase-systems.md",
+          "id": "39ec4ce5-6e75-4b4a-811a-0910c7f6c543",
+          "state": "stub",
+          "description": "Understanding different power system configurations."
+        },
+        {
+          "title": "Power Factor",
+          "type": "instruction",
+          "path": "instruction/power-factor/power-factor.md",
+          "id": "4e384486-c54b-4159-9ba5-6be3344908ca",
+          "state": "stub",
+          "description": "Definition, importance, and correction methods."
+        },
+        {
+          "title": "Impedance and Reactance",
+          "type": "instruction",
+          "path": "instruction/impedance-and-reactance/impedance-and-reactance.md",
+          "id": "f6125399-42d7-4039-8baa-272f0ada7c62",
+          "state": "stub",
+          "description": "Understanding the opposition to current flow in AC circuits."
+        },
+        {
+          "title": "Power System Components",
+          "type": "instruction",
+          "path": "instruction/power-system-components/power-system-components.md",
+          "id": "75bd724c-778d-444b-bf19-1c824dd51a5c",
+          "state": "stub",
+          "description": "Introduction to generators, transformers, and transmission lines."
+        },
+        {
+          "title": "Per-Unit System",
+          "type": "instruction",
+          "path": "instruction/per-unit-system/per-unit-system.md",
+          "id": "72c4978c-6d6f-4082-84d9-df9d29a050b0",
+          "state": "stub",
+          "description": "Simplifying power system calculations."
+        },
+        {
+          "title": "Power System Protection",
+          "type": "instruction",
+          "path": "instruction/power-system-protection/power-system-protection.md",
+          "id": "71b631aa-04c0-4e3a-b3e9-e0e144ae8239",
+          "state": "stub",
+          "description": "Overview of protection schemes and devices."
+        },
+        {
+          "title": "Power System Stability",
+          "type": "instruction",
+          "path": "instruction/power-system-stability/power-system-stability.md",
+          "id": "829bebc4-f02f-4828-8ca4-3e0d63eb08fc",
+          "state": "stub",
+          "description": "Introduction to transient and steady-state stability."
+        },
+        {
+          "title": "Introduction to Power System Analysis",
+          "type": "instruction",
+          "path": "instruction/introduction-to-power-system-analysis/introduction-to-power-system-analysis.md",
+          "id": "1940072d-2f3a-42eb-8058-a0ca951f0be9",
+          "state": "stub",
+          "description": "An overview of load flow, short circuit, and stability analysis."
+        },
+        {
+          "title": "Symmetrical Components",
+          "type": "instruction",
+          "path": "instruction/symmetrical-components/symmetrical-components.md",
+          "id": "e21141b8-fa78-4e28-99ee-bff80110a2b4",
+          "state": "stub",
+          "description": "Understanding sequence networks."
+        }
       ]
     },
     {
       "title": "Power Generation Technologies",
-      "description": "This module explores various technologies used for electrical power generation, including fossil fuels, nuclear, and renewable energy sources.",
       "topics": [
-        { "title": "Fossil Fuel Power Plants", "description": "Coal, natural gas, and oil-fired power generation.", "path": "instruction/fossil-fuel-power-plants/fossil-fuel-power-plants.md", "type": "instruction", "state": "stub" },
-        { "title": "Nuclear Power Plants", "description": "Nuclear fission and reactor types.", "path": "instruction/nuclear-power-plants/nuclear-power-plants.md", "type": "instruction", "state": "stub" },
-        { "title": "Hydroelectric Power Plants", "description": "Hydropower generation and dam technology.", "path": "instruction/hydroelectric-power-plants/hydroelectric-power-plants.md", "type": "instruction", "state": "stub" },
-        { "title": "Solar Power", "description": "Photovoltaic (PV) systems and solar thermal power.", "path": "instruction/solar-power/solar-power.md", "type": "instruction", "state": "stub" },
-        { "title": "Wind Power", "description": "Wind turbine technology and wind farm operation.", "path": "instruction/wind-power/wind-power.md", "type": "instruction", "state": "stub" },
-        { "title": "Geothermal Power", "description": "Harnessing geothermal energy for electricity generation.", "path": "instruction/geothermal-power/geothermal-power.md", "type": "instruction", "state": "stub" },
-        { "title": "Biomass Power", "description": "Electricity generation from biomass resources.", "path": "instruction/biomass-power/biomass-power.md", "type": "instruction", "state": "stub" },
-        { "title": "Combined Cycle Power Plants", "description": "Improving efficiency with combined cycle technology.", "path": "instruction/combined-cycle-power-plants/combined-cycle-power-plants.md", "type": "instruction", "state": "stub" },
-        { "title": "Emerging Generation Technologies", "description": "Fuel cells, wave energy, and other innovative approaches.", "path": "instruction/emerging-generation-technologies/emerging-generation-technologies.md", "type": "instruction", "state": "stub" },
-        { "title": "Distributed Generation", "description": "On-site power generation and microgrids.", "path": "instruction/distributed-generation/distributed-generation.md", "type": "instruction", "state": "stub" },
-        { "title": "The Economics of Power Generation", "description": "Levelized cost of energy and market dynamics.", "path": "instruction/the-economics-of-power-generation/the-economics-of-power-generation.md", "type": "instruction", "state": "stub" },
-        { "title": "Environmental Impacts of Power Generation", "description": "Comparing the environmental footprint of different technologies.", "path": "instruction/environmental-impacts-of-power-generation/environmental-impacts-of-power-generation.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "Fossil Fuel Power Plants",
+          "type": "instruction",
+          "path": "instruction/fossil-fuel-power-plants/fossil-fuel-power-plants.md",
+          "id": "9446a69e-704c-4a71-8772-c728849ecd0f",
+          "state": "stub",
+          "description": "Coal, natural gas, and oil-fired power generation."
+        },
+        {
+          "title": "Nuclear Power Plants",
+          "type": "instruction",
+          "path": "instruction/nuclear-power-plants/nuclear-power-plants.md",
+          "id": "37084fd4-72b6-4ec8-9394-d703b408f106",
+          "state": "stub",
+          "description": "Nuclear fission and reactor types."
+        },
+        {
+          "title": "Hydroelectric Power Plants",
+          "type": "instruction",
+          "path": "instruction/hydroelectric-power-plants/hydroelectric-power-plants.md",
+          "id": "66069284-17fa-4d3d-89a5-332a164a456e",
+          "state": "stub",
+          "description": "Hydropower generation and dam technology."
+        },
+        {
+          "title": "Solar Power",
+          "type": "instruction",
+          "path": "instruction/solar-power/solar-power.md",
+          "id": "8563ceb1-f2ec-47f6-855d-211ebb483271",
+          "state": "stub",
+          "description": "Photovoltaic (PV) systems and solar thermal power."
+        },
+        {
+          "title": "Wind Power",
+          "type": "instruction",
+          "path": "instruction/wind-power/wind-power.md",
+          "id": "50c0794d-1836-4b91-932b-b6b1c3225341",
+          "state": "stub",
+          "description": "Wind turbine technology and wind farm operation."
+        },
+        {
+          "title": "Geothermal Power",
+          "type": "instruction",
+          "path": "instruction/geothermal-power/geothermal-power.md",
+          "id": "a0238291-fc1b-43ce-90c5-8a49f8c49c8f",
+          "state": "stub",
+          "description": "Harnessing geothermal energy for electricity generation."
+        },
+        {
+          "title": "Biomass Power",
+          "type": "instruction",
+          "path": "instruction/biomass-power/biomass-power.md",
+          "id": "15ae8fb4-8176-4860-a63b-a3be4d6508ef",
+          "state": "stub",
+          "description": "Electricity generation from biomass resources."
+        },
+        {
+          "title": "Combined Cycle Power Plants",
+          "type": "instruction",
+          "path": "instruction/combined-cycle-power-plants/combined-cycle-power-plants.md",
+          "id": "27e7c54f-1769-4290-9824-ce9365b56a2e",
+          "state": "stub",
+          "description": "Improving efficiency with combined cycle technology."
+        },
+        {
+          "title": "Emerging Generation Technologies",
+          "type": "instruction",
+          "path": "instruction/emerging-generation-technologies/emerging-generation-technologies.md",
+          "id": "bb0655d5-ae5e-468c-a826-34f1480d58bb",
+          "state": "stub",
+          "description": "Fuel cells, wave energy, and other innovative approaches."
+        },
+        {
+          "title": "Distributed Generation",
+          "type": "instruction",
+          "path": "instruction/distributed-generation/distributed-generation.md",
+          "id": "17cc622b-68fd-402d-9e56-4f4971c0180f",
+          "state": "stub",
+          "description": "On-site power generation and microgrids."
+        },
+        {
+          "title": "The Economics of Power Generation",
+          "type": "instruction",
+          "path": "instruction/the-economics-of-power-generation/the-economics-of-power-generation.md",
+          "id": "2686e616-37ba-4a07-b38d-01a2ccb5966b",
+          "state": "stub",
+          "description": "Levelized cost of energy and market dynamics."
+        },
+        {
+          "title": "Environmental Impacts of Power Generation",
+          "type": "instruction",
+          "path": "instruction/environmental-impacts-of-power-generation/environmental-impacts-of-power-generation.md",
+          "id": "9a97cfe1-ca4c-47bb-b4fc-51c61aec18bb",
+          "state": "stub",
+          "description": "Comparing the environmental footprint of different technologies."
+        }
       ]
     },
     {
       "title": "Power Transmission and Distribution",
-      "description": "This module covers the transmission and distribution of electrical power from generation sources to end-users.",
       "topics": [
-        { "title": "Transmission Line Characteristics", "description": "Resistance, inductance, and capacitance of transmission lines.", "path": "instruction/transmission-line-characteristics/transmission-line-characteristics.md", "type": "instruction", "state": "stub" },
-        { "title": "Transmission Line Design", "description": "Voltage levels, conductor selection, and insulation.", "path": "instruction/transmission-line-design/transmission-line-design.md", "type": "instruction", "state": "stub" },
-        { "title": "High Voltage DC Transmission", "description": "HVDC technology and applications.", "path": "instruction/high-voltage-dc-transmission/high-voltage-dc-transmission.md", "type": "instruction", "state": "stub" },
-        { "title": "Substations", "description": "Functions and components of substations.", "path": "instruction/substations/substations.md", "type": "instruction", "state": "stub" },
-        { "title": "Distribution Systems", "description": "Primary and secondary distribution networks.", "path": "instruction/distribution-systems/distribution-systems.md", "type": "instruction", "state": "stub" },
-        { "title": "Distribution Automation", "description": "Smart grid technologies for distribution systems.", "path": "instruction/distribution-automation/distribution-automation.md", "type": "instruction", "state": "stub" },
-        { "title": "Power Transformers", "description": "Transformer operation and applications in power systems.", "path": "instruction/power-transformers/power-transformers.md", "type": "instruction", "state": "stub" },
-        { "title": "Insulators", "description": "Types of insulators and their performance characteristics.", "path": "instruction/insulators/insulators.md", "type": "instruction", "state": "stub" },
-        { "title": "Conductors", "description": "Conductor materials and their properties.", "path": "instruction/conductors/conductors.md", "type": "instruction", "state": "stub" },
-        { "title": "Overhead vs. Underground Transmission", "description": "Comparing the advantages and disadvantages of each approach.", "path": "instruction/overhead-vs-underground-transmission/overhead-vs-underground-transmission.md", "type": "instruction", "state": "stub" },
-        { "title": "Power Quality Issues", "description": "Harmonics, voltage sags, and other power quality disturbances.", "path": "instruction/power-quality-issues/power-quality-issues.md", "type": "instruction", "state": "stub" },
-        { "title": "Smart Grid Technologies", "description": "Advanced metering infrastructure (AMI) and communication networks.", "path": "instruction/smart-grid-technologies/smart-grid-technologies.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "Transmission Line Characteristics",
+          "type": "instruction",
+          "path": "instruction/transmission-line-characteristics/transmission-line-characteristics.md",
+          "id": "e9421343-1e40-4695-85db-adf42ee514c0",
+          "state": "stub",
+          "description": "Resistance, inductance, and capacitance of transmission lines."
+        },
+        {
+          "title": "Transmission Line Design",
+          "type": "instruction",
+          "path": "instruction/transmission-line-design/transmission-line-design.md",
+          "id": "830f4f2e-edc0-45dd-baf0-d7ad380e75d4",
+          "state": "stub",
+          "description": "Voltage levels, conductor selection, and insulation."
+        },
+        {
+          "title": "High Voltage DC Transmission",
+          "type": "instruction",
+          "path": "instruction/high-voltage-dc-transmission/high-voltage-dc-transmission.md",
+          "id": "011e811d-f818-48f7-a3ed-6240ccd0dfc8",
+          "state": "stub",
+          "description": "HVDC technology and applications."
+        },
+        {
+          "title": "Substations",
+          "type": "instruction",
+          "path": "instruction/substations/substations.md",
+          "id": "feb23908-1c06-4e46-9cfa-b42315df23f1",
+          "state": "stub",
+          "description": "Functions and components of substations."
+        },
+        {
+          "title": "Distribution Systems",
+          "type": "instruction",
+          "path": "instruction/distribution-systems/distribution-systems.md",
+          "id": "31f9625b-6052-4358-84c0-9dc4be1e265c",
+          "state": "stub",
+          "description": "Primary and secondary distribution networks."
+        },
+        {
+          "title": "Distribution Automation",
+          "type": "instruction",
+          "path": "instruction/distribution-automation/distribution-automation.md",
+          "id": "d7396e66-f049-42cc-8d54-1775e8d38bf0",
+          "state": "stub",
+          "description": "Smart grid technologies for distribution systems."
+        },
+        {
+          "title": "Power Transformers",
+          "type": "instruction",
+          "path": "instruction/power-transformers/power-transformers.md",
+          "id": "ae42f2d1-21f6-46cd-abe1-8aaad615ce61",
+          "state": "stub",
+          "description": "Transformer operation and applications in power systems."
+        },
+        {
+          "title": "Insulators",
+          "type": "instruction",
+          "path": "instruction/insulators/insulators.md",
+          "id": "c097fba0-7768-4df4-960f-2a53bc1d714f",
+          "state": "stub",
+          "description": "Types of insulators and their performance characteristics."
+        },
+        {
+          "title": "Conductors",
+          "type": "instruction",
+          "path": "instruction/conductors/conductors.md",
+          "id": "69893935-e65a-48c3-9941-3a2b1c06983b",
+          "state": "stub",
+          "description": "Conductor materials and their properties."
+        },
+        {
+          "title": "Overhead vs. Underground Transmission",
+          "type": "instruction",
+          "path": "instruction/overhead-vs-underground-transmission/overhead-vs-underground-transmission.md",
+          "id": "77f615e9-f324-474f-8dba-c7c190255957",
+          "state": "stub",
+          "description": "Comparing the advantages and disadvantages of each approach."
+        },
+        {
+          "title": "Power Quality Issues",
+          "type": "instruction",
+          "path": "instruction/power-quality-issues/power-quality-issues.md",
+          "id": "7068ccb5-2b53-4aa8-a9cf-6fc6c05416a9",
+          "state": "stub",
+          "description": "Harmonics, voltage sags, and other power quality disturbances."
+        },
+        {
+          "title": "Smart Grid Technologies",
+          "type": "instruction",
+          "path": "instruction/smart-grid-technologies/smart-grid-technologies.md",
+          "id": "80fac5f2-79dd-4bfd-b4c2-d95b70f88378",
+          "state": "stub",
+          "description": "Advanced metering infrastructure (AMI) and communication networks."
+        }
       ]
     },
     {
       "title": "Power System Protection and Control",
-      "description": "This module focuses on the protection and control systems used to ensure the reliable and stable operation of electrical power grids.",
       "topics": [
-        { "title": "Protective Relaying", "description": "Principles and types of protective relays.", "path": "instruction/protective-relaying/protective-relaying.md", "type": "instruction", "state": "stub" },
-        { "title": "Circuit Breakers", "description": "Circuit breaker operation and applications.", "path": "instruction/circuit-breakers/circuit-breakers.md", "type": "instruction", "state": "stub" },
-        { "title": "Fault Analysis", "description": "Symmetrical and unsymmetrical fault calculations.", "path": "instruction/fault-analysis/fault-analysis.md", "type": "instruction", "state": "stub" },
-        { "title": "Overcurrent Protection", "description": "Time-current characteristics and coordination.", "path": "instruction/overcurrent-protection/overcurrent-protection.md", "type": "instruction", "state": "stub" },
-        { "title": "Distance Protection", "description": "Impedance-based protection schemes.", "path": "instruction/distance-protection/distance-protection.md", "type": "instruction", "state": "stub" },
-        { "title": "Differential Protection", "description": "Protecting transformers and generators.", "path": "instruction/differential-protection/differential-protection.md", "type": "instruction", "state": "stub" },
-        { "title": "Generator Protection", "description": "Specific protection requirements for generators.", "path": "instruction/generator-protection/generator-protection.md", "type": "instruction", "state": "stub" },
-        { "title": "Transformer Protection", "description": "Specific protection requirements for transformers.", "path": "instruction/transformer-protection/transformer-protection.md", "type": "instruction", "state": "stub" },
-        { "title": "Power System Stability Control", "description": "Techniques for enhancing system stability.", "path": "instruction/power-system-stability-control/power-system-stability-control.md", "type": "instruction", "state": "stub" },
-        { "title": "Wide Area Measurement Systems", "description": "Using synchrophasors for real-time monitoring.", "path": "instruction/wide-area-measurement-systems/wide-area-measurement-systems.md", "type": "instruction", "state": "stub" },
-        { "title": "Adaptive Protection", "description": "Adjusting protection settings based on system conditions.", "path": "instruction/adaptive-protection/adaptive-protection.md", "type": "instruction", "state": "stub" },
-        { "title": "Control Center Operations", "description": "SCADA systems and energy management systems.", "path": "instruction/control-center-operations/control-center-operations.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "Protective Relaying",
+          "type": "instruction",
+          "path": "instruction/protective-relaying/protective-relaying.md",
+          "id": "e63c7041-0294-4a8f-8c0a-f6d1d9bc3009",
+          "state": "stub",
+          "description": "Principles and types of protective relays."
+        },
+        {
+          "title": "Circuit Breakers",
+          "type": "instruction",
+          "path": "instruction/circuit-breakers/circuit-breakers.md",
+          "id": "2bd299c6-2348-4e49-bf7a-a0224476d7f4",
+          "state": "stub",
+          "description": "Circuit breaker operation and applications."
+        },
+        {
+          "title": "Fault Analysis",
+          "type": "instruction",
+          "path": "instruction/fault-analysis/fault-analysis.md",
+          "id": "8205aa72-5551-4f19-b602-e9660f007740",
+          "state": "stub",
+          "description": "Symmetrical and unsymmetrical fault calculations."
+        },
+        {
+          "title": "Overcurrent Protection",
+          "type": "instruction",
+          "path": "instruction/overcurrent-protection/overcurrent-protection.md",
+          "id": "4ca6a1b2-58c2-4297-a1e0-53d836164c25",
+          "state": "stub",
+          "description": "Time-current characteristics and coordination."
+        },
+        {
+          "title": "Distance Protection",
+          "type": "instruction",
+          "path": "instruction/distance-protection/distance-protection.md",
+          "id": "32760916-a96f-4dfe-8e9e-e161f45b3dd0",
+          "state": "stub",
+          "description": "Impedance-based protection schemes."
+        },
+        {
+          "title": "Differential Protection",
+          "type": "instruction",
+          "path": "instruction/differential-protection/differential-protection.md",
+          "id": "ca74f4e0-c8bd-4519-b33d-d46f3690dc74",
+          "state": "stub",
+          "description": "Protecting transformers and generators."
+        },
+        {
+          "title": "Generator Protection",
+          "type": "instruction",
+          "path": "instruction/generator-protection/generator-protection.md",
+          "id": "230fd3c1-df38-4ba7-a70f-e0dfac8dbf40",
+          "state": "stub",
+          "description": "Specific protection requirements for generators."
+        },
+        {
+          "title": "Transformer Protection",
+          "type": "instruction",
+          "path": "instruction/transformer-protection/transformer-protection.md",
+          "id": "7c72f96d-88ba-4c41-8ebb-1ef9ad602e6c",
+          "state": "stub",
+          "description": "Specific protection requirements for transformers."
+        },
+        {
+          "title": "Power System Stability Control",
+          "type": "instruction",
+          "path": "instruction/power-system-stability-control/power-system-stability-control.md",
+          "id": "91fc9e7e-e79f-4070-acd3-585c84895510",
+          "state": "stub",
+          "description": "Techniques for enhancing system stability."
+        },
+        {
+          "title": "Wide Area Measurement Systems",
+          "type": "instruction",
+          "path": "instruction/wide-area-measurement-systems/wide-area-measurement-systems.md",
+          "id": "61681489-6a72-4954-8e50-cbf95a42abe1",
+          "state": "stub",
+          "description": "Using synchrophasors for real-time monitoring."
+        },
+        {
+          "title": "Adaptive Protection",
+          "type": "instruction",
+          "path": "instruction/adaptive-protection/adaptive-protection.md",
+          "id": "516bddc9-6d19-48ff-b258-a14254faa8c9",
+          "state": "stub",
+          "description": "Adjusting protection settings based on system conditions."
+        },
+        {
+          "title": "Control Center Operations",
+          "type": "instruction",
+          "path": "instruction/control-center-operations/control-center-operations.md",
+          "id": "b603ba4b-d7d4-4f70-ab85-3a739ce30fdd",
+          "state": "stub",
+          "description": "SCADA systems and energy management systems."
+        }
       ]
     },
     {
       "title": "Renewable Energy Integration",
-      "description": "This module explores the challenges and solutions associated with integrating renewable energy sources into the power grid.",
       "topics": [
-        { "title": "Variability and Intermittency of Renewables", "description": "Addressing the challenges of fluctuating renewable energy output.", "path": "instruction/variability-and-intermittency-of-renewables/variability-and-intermittency-of-renewables.md", "type": "instruction", "state": "stub" },
-        { "title": "Grid Integration of Solar Power", "description": "Integrating large-scale solar farms and rooftop PV systems.", "path": "instruction/grid-integration-of-solar-power/grid-integration-of-solar-power.md", "type": "instruction", "state": "stub" },
-        { "title": "Grid Integration of Wind Power", "description": "Integrating wind farms and managing wind power variability.", "path": "instruction/grid-integration-of-wind-power/grid-integration-of-wind-power.md", "type": "instruction", "state": "stub" },
-        { "title": "Energy Storage Systems", "description": "Batteries, pumped hydro, and other energy storage technologies.", "path": "instruction/energy-storage-systems/energy-storage-systems.md", "type": "instruction", "state": "stub" },
-        { "title": "Demand Response", "description": "Managing electricity demand to improve grid stability.", "path": "instruction/demand-response/demand-response.md", "type": "instruction", "state": "stub" },
-        { "title": "Smart Inverters", "description": "Advanced inverter functionalities for grid support.", "path": "instruction/smart-inverters/smart-inverters.md", "type": "instruction", "state": "stub" },
-        { "title": "Microgrids", "description": "Localized power grids with renewable energy sources and storage.", "path": "instruction/microgrids/microgrids.md", "type": "instruction", "state": "stub" },
-        { "title": "Virtual Power Plants", "description": "Aggregating distributed energy resources to act as a single power plant.", "path": "instruction/virtual-power-plants/virtual-power-plants.md", "type": "instruction", "state": "stub" },
-        { "title": "Forecasting Renewable Energy Output", "description": "Predicting solar and wind power generation.", "path": "instruction/forecasting-renewable-energy-output/forecasting-renewable-energy-output.md", "type": "instruction", "state": "stub" },
-        { "title": "Power System Planning with Renewables", "description": "Incorporating renewable energy into long-term power system plans.", "path": "instruction/power-system-planning-with-renewables/power-system-planning-with-renewables.md", "type": "instruction", "state": "stub" },
-        { "title": "Regulations and Policies for Renewables", "description": "Incentives and mandates for renewable energy development.", "path": "instruction/regulations-and-policies-for-renewables/regulations-and-policies-for-renewables.md", "type": "instruction", "state": "stub" },
-        { "title": "Economic Considerations for Renewable Energy", "description": "Cost-benefit analysis and investment strategies.", "path": "instruction/economic-considerations-for-renewable-energy/economic-considerations-for-renewable-energy.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "Variability and Intermittency of Renewables",
+          "type": "instruction",
+          "path": "instruction/variability-and-intermittency-of-renewables/variability-and-intermittency-of-renewables.md",
+          "id": "52f77b6e-4bf9-4344-ac29-2f9b91f8bdf0",
+          "state": "stub",
+          "description": "Addressing the challenges of fluctuating renewable energy output."
+        },
+        {
+          "title": "Grid Integration of Solar Power",
+          "type": "instruction",
+          "path": "instruction/grid-integration-of-solar-power/grid-integration-of-solar-power.md",
+          "id": "81c62b9d-4c76-4166-a5e4-90be715e4123",
+          "state": "stub",
+          "description": "Integrating large-scale solar farms and rooftop PV systems."
+        },
+        {
+          "title": "Grid Integration of Wind Power",
+          "type": "instruction",
+          "path": "instruction/grid-integration-of-wind-power/grid-integration-of-wind-power.md",
+          "id": "90158606-a948-47ed-be9d-2e165473f212",
+          "state": "stub",
+          "description": "Integrating wind farms and managing wind power variability."
+        },
+        {
+          "title": "Energy Storage Systems",
+          "type": "instruction",
+          "path": "instruction/energy-storage-systems/energy-storage-systems.md",
+          "id": "d1d4dd05-6bf1-49ea-82d5-1d5977f8b2ec",
+          "state": "stub",
+          "description": "Batteries, pumped hydro, and other energy storage technologies."
+        },
+        {
+          "title": "Demand Response",
+          "type": "instruction",
+          "path": "instruction/demand-response/demand-response.md",
+          "id": "4a2e032b-3469-48ce-be34-794178ff83a2",
+          "state": "stub",
+          "description": "Managing electricity demand to improve grid stability."
+        },
+        {
+          "title": "Smart Inverters",
+          "type": "instruction",
+          "path": "instruction/smart-inverters/smart-inverters.md",
+          "id": "002873c5-6ca2-4912-bcdf-d46e193c2a6a",
+          "state": "stub",
+          "description": "Advanced inverter functionalities for grid support."
+        },
+        {
+          "title": "Microgrids",
+          "type": "instruction",
+          "path": "instruction/microgrids/microgrids.md",
+          "id": "6ceef334-6a9b-452b-9e20-4635d59e519a",
+          "state": "stub",
+          "description": "Localized power grids with renewable energy sources and storage."
+        },
+        {
+          "title": "Virtual Power Plants",
+          "type": "instruction",
+          "path": "instruction/virtual-power-plants/virtual-power-plants.md",
+          "id": "db7e73cf-dfbc-4676-b47a-127687fd64ee",
+          "state": "stub",
+          "description": "Aggregating distributed energy resources to act as a single power plant."
+        },
+        {
+          "title": "Forecasting Renewable Energy Output",
+          "type": "instruction",
+          "path": "instruction/forecasting-renewable-energy-output/forecasting-renewable-energy-output.md",
+          "id": "ff287476-314a-451e-8568-373400f54d99",
+          "state": "stub",
+          "description": "Predicting solar and wind power generation."
+        },
+        {
+          "title": "Power System Planning with Renewables",
+          "type": "instruction",
+          "path": "instruction/power-system-planning-with-renewables/power-system-planning-with-renewables.md",
+          "id": "8b45ec30-af0d-4c7e-9d4b-b921fda5417b",
+          "state": "stub",
+          "description": "Incorporating renewable energy into long-term power system plans."
+        },
+        {
+          "title": "Regulations and Policies for Renewables",
+          "type": "instruction",
+          "path": "instruction/regulations-and-policies-for-renewables/regulations-and-policies-for-renewables.md",
+          "id": "c8698f72-0ea2-4114-a97d-e3598e2d196c",
+          "state": "stub",
+          "description": "Incentives and mandates for renewable energy development."
+        },
+        {
+          "title": "Economic Considerations for Renewable Energy",
+          "type": "instruction",
+          "path": "instruction/economic-considerations-for-renewable-energy/economic-considerations-for-renewable-energy.md",
+          "id": "52a4f899-23b6-4b60-92bb-a172700c0fd0",
+          "state": "stub",
+          "description": "Cost-benefit analysis and investment strategies."
+        }
       ]
     },
     {
       "title": "Energy Storage Technologies",
-      "description": "This module dives deeper into the technologies used for electrical energy storage.",
       "topics": [
-        { "title": "Battery Technologies", "description": "Lithium-ion, lead-acid, and other battery chemistries.", "path": "instruction/battery-technologies/battery-technologies.md", "type": "instruction", "state": "stub" },
-        { "title": "Pumped Hydro Storage", "description": "Using water reservoirs for energy storage.", "path": "instruction/pumped-hydro-storage/pumped-hydro-storage.md", "type": "instruction", "state": "stub" },
-        { "title": "Compressed Air Energy Storage", "description": "Storing energy by compressing air.", "path": "instruction/compressed-air-energy-storage/compressed-air-energy-storage.md", "type": "instruction", "state": "stub" },
-        { "title": "Flywheel Energy Storage", "description": "Using rotating flywheels for energy storage.", "path": "instruction/flywheel-energy-storage/flywheel-energy-storage.md", "type": "instruction", "state": "stub" },
-        { "title": "Thermal Energy Storage", "description": "Storing energy in the form of heat or cold.", "path": "instruction/thermal-energy-storage/thermal-energy-storage.md", "type": "instruction", "state": "stub" },
-        { "title": "Hydrogen Energy Storage", "description": "Producing and storing hydrogen as an energy carrier.", "path": "instruction/hydrogen-energy-storage/hydrogen-energy-storage.md", "type": "instruction", "state": "stub" },
-        { "title": "Supercapacitors", "description": "Electrical double-layer capacitors for energy storage.", "path": "instruction/supercapacitors/supercapacitors.md", "type": "instruction", "state": "stub" },
-        { "title": "Grid-Scale Energy Storage", "description": "Large-scale energy storage systems for grid support.", "path": "instruction/grid-scale-energy-storage/grid-scale-energy-storage.md", "type": "instruction", "state": "stub" },
-        { "title": "Residential Energy Storage", "description": "Battery systems for homes and businesses.", "path": "instruction/residential-energy-storage/residential-energy-storage.md", "type": "instruction", "state": "stub" },
-        { "title": "Energy Storage System Integration", "description": "Connecting energy storage systems to the grid.", "path": "instruction/energy-storage-system-integration/energy-storage-system-integration.md", "type": "instruction", "state": "stub" },
-        { "title": "The Economics of Energy Storage", "description": "Cost-benefit analysis of energy storage projects.", "path": "instruction/the-economics-of-energy-storage/the-economics-of-energy-storage.md", "type": "instruction", "state": "stub" },
-        { "title": "Safety Considerations for Energy Storage", "description": "Addressing safety concerns related to energy storage systems.", "path": "instruction/safety-considerations-for-energy-storage/safety-considerations-for-energy-storage.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "Battery Technologies",
+          "type": "instruction",
+          "path": "instruction/battery-technologies/battery-technologies.md",
+          "id": "48d07755-5d2e-49f6-82f8-2a73b2863368",
+          "state": "stub",
+          "description": "Lithium-ion, lead-acid, and other battery chemistries."
+        },
+        {
+          "title": "Pumped Hydro Storage",
+          "type": "instruction",
+          "path": "instruction/pumped-hydro-storage/pumped-hydro-storage.md",
+          "id": "2ea4619d-6eb6-4748-ad51-5c69c4f524df",
+          "state": "stub",
+          "description": "Using water reservoirs for energy storage."
+        },
+        {
+          "title": "Compressed Air Energy Storage",
+          "type": "instruction",
+          "path": "instruction/compressed-air-energy-storage/compressed-air-energy-storage.md",
+          "id": "62642932-0daa-4ca5-8414-921de97c3e55",
+          "state": "stub",
+          "description": "Storing energy by compressing air."
+        },
+        {
+          "title": "Flywheel Energy Storage",
+          "type": "instruction",
+          "path": "instruction/flywheel-energy-storage/flywheel-energy-storage.md",
+          "id": "395f4e44-73a1-42c3-9d2d-bfe4f6993a63",
+          "state": "stub",
+          "description": "Using rotating flywheels for energy storage."
+        },
+        {
+          "title": "Thermal Energy Storage",
+          "type": "instruction",
+          "path": "instruction/thermal-energy-storage/thermal-energy-storage.md",
+          "id": "f7021bdc-c110-4d42-87fe-cdcd93f67c7a",
+          "state": "stub",
+          "description": "Storing energy in the form of heat or cold."
+        },
+        {
+          "title": "Hydrogen Energy Storage",
+          "type": "instruction",
+          "path": "instruction/hydrogen-energy-storage/hydrogen-energy-storage.md",
+          "id": "a3c1a9f4-2df7-46b4-aaea-5fc6f567a707",
+          "state": "stub",
+          "description": "Producing and storing hydrogen as an energy carrier."
+        },
+        {
+          "title": "Supercapacitors",
+          "type": "instruction",
+          "path": "instruction/supercapacitors/supercapacitors.md",
+          "id": "701e3c0a-a6a1-4e76-9c4b-677ea26fa1ad",
+          "state": "stub",
+          "description": "Electrical double-layer capacitors for energy storage."
+        },
+        {
+          "title": "Grid-Scale Energy Storage",
+          "type": "instruction",
+          "path": "instruction/grid-scale-energy-storage/grid-scale-energy-storage.md",
+          "id": "cd8a93e1-883e-4948-a83b-1500bdf5d93f",
+          "state": "stub",
+          "description": "Large-scale energy storage systems for grid support."
+        },
+        {
+          "title": "Residential Energy Storage",
+          "type": "instruction",
+          "path": "instruction/residential-energy-storage/residential-energy-storage.md",
+          "id": "84588b92-0821-470d-b5fe-d9bb901200d9",
+          "state": "stub",
+          "description": "Battery systems for homes and businesses."
+        },
+        {
+          "title": "Energy Storage System Integration",
+          "type": "instruction",
+          "path": "instruction/energy-storage-system-integration/energy-storage-system-integration.md",
+          "id": "1b2dafc7-4e20-4812-a6b7-3d6ac8d410fb",
+          "state": "stub",
+          "description": "Connecting energy storage systems to the grid."
+        },
+        {
+          "title": "The Economics of Energy Storage",
+          "type": "instruction",
+          "path": "instruction/the-economics-of-energy-storage/the-economics-of-energy-storage.md",
+          "id": "400a4b41-4c25-48f2-94a3-735d6cc4d4b7",
+          "state": "stub",
+          "description": "Cost-benefit analysis of energy storage projects."
+        },
+        {
+          "title": "Safety Considerations for Energy Storage",
+          "type": "instruction",
+          "path": "instruction/safety-considerations-for-energy-storage/safety-considerations-for-energy-storage.md",
+          "id": "1bdb2173-086c-4a04-bdfe-cad5c41cb458",
+          "state": "stub",
+          "description": "Addressing safety concerns related to energy storage systems."
+        }
       ]
     },
     {
       "title": "Power Grid Resilience and Reliability",
-      "description": "This module explores the factors that affect power grid resilience and reliability, as well as strategies for improving them.",
       "topics": [
-        { "title": "Causes of Power Outages", "description": "Natural disasters, equipment failures, and cyberattacks.", "path": "instruction/causes-of-power-outages/causes-of-power-outages.md", "type": "instruction", "state": "stub" },
-        { "title": "Blackout Prevention", "description": "Strategies for preventing cascading failures.", "path": "instruction/blackout-prevention/blackout-prevention.md", "type": "instruction", "state": "stub" },
-        { "title": "Grid Hardening", "description": "Protecting critical infrastructure from physical threats.", "path": "instruction/grid-hardening/grid-hardening.md", "type": "instruction", "state": "stub" },
-        { "title": "Cybersecurity for Power Grids", "description": "Protecting the grid from cyberattacks.", "path": "instruction/cybersecurity-for-power-grids/cybersecurity-for-power-grids.md", "type": "instruction", "state": "stub" },
-        { "title": "Emergency Response Planning", "description": "Preparing for and responding to power outages.", "path": "instruction/emergency-response-planning/emergency-response-planning.md", "type": "instruction", "state": "stub" },
-        { "title": "Fault Tolerance", "description": "Designing systems that can withstand component failures.", "path": "instruction/fault-tolerance/fault-tolerance.md", "type": "instruction", "state": "stub" },
-        { "title": "Redundancy", "description": "Using backup systems to improve reliability.", "path": "instruction/redundancy/redundancy.md", "type": "instruction", "state": "stub" },
-        { "title": "Distributed Control", "description": "Decentralized control systems for improved resilience.", "path": "instruction/distributed-control/distributed-control.md", "type": "instruction", "state": "stub" },
-        { "title": "Microgrid Resilience", "description": "Using microgrids to improve local power supply during outages.", "path": "instruction/microgrid-resilience/microgrid-resilience.md", "type": "instruction", "state": "stub" },
-        { "title": "Predictive Maintenance", "description": "Using data analytics to predict equipment failures.", "path": "instruction/predictive-maintenance/predictive-maintenance.md", "type": "instruction", "state": "stub" },
-        { "title": "Data Analytics for Grid Resilience", "description": "Using data to improve grid monitoring and control.", "path": "instruction/data-analytics-for-grid-resilience/data-analytics-for-grid-resilience.md", "type": "instruction", "state": "stub" },
-        { "title": "Community Resilience", "description": "Building community-level resilience to power outages.", "path": "instruction/community-resilience/community-resilience.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "Causes of Power Outages",
+          "type": "instruction",
+          "path": "instruction/causes-of-power-outages/causes-of-power-outages.md",
+          "id": "89fc2cd7-e05f-4ba9-900d-db5bb92f8dea",
+          "state": "stub",
+          "description": "Natural disasters, equipment failures, and cyberattacks."
+        },
+        {
+          "title": "Blackout Prevention",
+          "type": "instruction",
+          "path": "instruction/blackout-prevention/blackout-prevention.md",
+          "id": "ebb86515-a856-4a37-b75a-e9399a8b41fd",
+          "state": "stub",
+          "description": "Strategies for preventing cascading failures."
+        },
+        {
+          "title": "Grid Hardening",
+          "type": "instruction",
+          "path": "instruction/grid-hardening/grid-hardening.md",
+          "id": "0d1387f2-b22a-44e0-bff9-f846437527f1",
+          "state": "stub",
+          "description": "Protecting critical infrastructure from physical threats."
+        },
+        {
+          "title": "Cybersecurity for Power Grids",
+          "type": "instruction",
+          "path": "instruction/cybersecurity-for-power-grids/cybersecurity-for-power-grids.md",
+          "id": "836e90e8-71a9-43fb-9857-d9e176e5ec23",
+          "state": "stub",
+          "description": "Protecting the grid from cyberattacks."
+        },
+        {
+          "title": "Emergency Response Planning",
+          "type": "instruction",
+          "path": "instruction/emergency-response-planning/emergency-response-planning.md",
+          "id": "e22834a2-2b0b-4f2d-8549-1ae95c7eb7ad",
+          "state": "stub",
+          "description": "Preparing for and responding to power outages."
+        },
+        {
+          "title": "Fault Tolerance",
+          "type": "instruction",
+          "path": "instruction/fault-tolerance/fault-tolerance.md",
+          "id": "4e5c1135-1947-4f2f-be6c-f0a224e36213",
+          "state": "stub",
+          "description": "Designing systems that can withstand component failures."
+        },
+        {
+          "title": "Redundancy",
+          "type": "instruction",
+          "path": "instruction/redundancy/redundancy.md",
+          "id": "987ca25e-7d66-492d-a354-d52909840d35",
+          "state": "stub",
+          "description": "Using backup systems to improve reliability."
+        },
+        {
+          "title": "Distributed Control",
+          "type": "instruction",
+          "path": "instruction/distributed-control/distributed-control.md",
+          "id": "0528f59b-b707-4f72-9497-feacdf4dc591",
+          "state": "stub",
+          "description": "Decentralized control systems for improved resilience."
+        },
+        {
+          "title": "Microgrid Resilience",
+          "type": "instruction",
+          "path": "instruction/microgrid-resilience/microgrid-resilience.md",
+          "id": "b6dfe7f5-9d1e-4198-b0f0-da15c13c8c7f",
+          "state": "stub",
+          "description": "Using microgrids to improve local power supply during outages."
+        },
+        {
+          "title": "Predictive Maintenance",
+          "type": "instruction",
+          "path": "instruction/predictive-maintenance/predictive-maintenance.md",
+          "id": "66c90cd2-fe99-4353-8324-e8ad774c3762",
+          "state": "stub",
+          "description": "Using data analytics to predict equipment failures."
+        },
+        {
+          "title": "Data Analytics for Grid Resilience",
+          "type": "instruction",
+          "path": "instruction/data-analytics-for-grid-resilience/data-analytics-for-grid-resilience.md",
+          "id": "bf49ab9b-c48e-4579-8472-ea93e59f24e9",
+          "state": "stub",
+          "description": "Using data to improve grid monitoring and control."
+        },
+        {
+          "title": "Community Resilience",
+          "type": "instruction",
+          "path": "instruction/community-resilience/community-resilience.md",
+          "id": "c67faa3c-f48c-49ea-ae6e-f7bdd0ac9715",
+          "state": "stub",
+          "description": "Building community-level resilience to power outages."
+        }
       ]
     },
     {
       "title": "The Future of Electrical Power Systems",
-      "description": "This module explores emerging trends and technologies that are shaping the future of electrical power systems.",
       "topics": [
-        { "title": "Smart Cities", "description": "Integrating power systems with other urban infrastructure.", "path": "instruction/smart-cities/smart-cities.md", "type": "instruction", "state": "stub" },
-        { "title": "Electric Vehicles", "description": "The impact of electric vehicles on the power grid.", "path": "instruction/electric-vehicles/electric-vehicles.md", "type": "instruction", "state": "stub" },
-        { "title": "Vehicle-to-Grid Technology", "description": "Using electric vehicles as energy storage devices.", "path": "instruction/vehicle-to-grid-technology/vehicle-to-grid-technology.md", "type": "instruction", "state": "stub" },
-        { "title": "Blockchain Technology", "description": "Applying blockchain to energy trading and grid management.", "path": "instruction/blockchain-technology/blockchain-technology.md", "type": "instruction", "state": "stub" },
-        { "title": "Artificial Intelligence", "description": "Using AI for power system optimization and control.", "path": "instruction/artificial-intelligence/artificial-intelligence.md", "type": "instruction", "state": "stub" },
-        { "title": "The Internet of Things", "description": "Connecting power system devices to the internet.", "path": "instruction/the-internet-of-things/the-internet-of-things.md", "type": "instruction", "state": "stub" },
-        { "title": "Advanced Metering Infrastructure", "description": "Smart meters and advanced communication networks.", "path": "instruction/advanced-metering-infrastructure/advanced-metering-infrastructure.md", "type": "instruction", "state": "stub" },
-        { "title": "Transactive Energy", "description": "Real-time energy trading between consumers and producers.", "path": "instruction/transactive-energy/transactive-energy.md", "type": "instruction", "state": "stub" },
-        { "title": "Quantum Computing", "description": "Potential applications of quantum computing in power systems.", "path": "instruction/quantum-computing/quantum-computing.md", "type": "instruction", "state": "stub" },
-        { "title": "Direct Current Microgrids", "description": "DC power distribution systems for improved efficiency.", "path": "instruction/direct-current-microgrids/direct-current-microgrids.md", "type": "instruction", "state": "stub" },
-        { "title": "The Role of Policy and Regulation", "description": "Shaping the future of the power grid through policy.", "path": "instruction/the-role-of-policy-and-regulation/the-role-of-policy-and-regulation.md", "type": "instruction", "state": "stub" },
-        { "title": "The Future Workforce", "description": "Skills and training needed for the future power grid.", "path": "instruction/the-future-workforce/the-future-workforce.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "Smart Cities",
+          "type": "instruction",
+          "path": "instruction/smart-cities/smart-cities.md",
+          "id": "d00e730b-bf77-4f3a-9fe1-c3bd4ae7ff55",
+          "state": "stub",
+          "description": "Integrating power systems with other urban infrastructure."
+        },
+        {
+          "title": "Electric Vehicles",
+          "type": "instruction",
+          "path": "instruction/electric-vehicles/electric-vehicles.md",
+          "id": "ea09b4d1-66ee-4e97-a968-7d0ac709e625",
+          "state": "stub",
+          "description": "The impact of electric vehicles on the power grid."
+        },
+        {
+          "title": "Vehicle-to-Grid Technology",
+          "type": "instruction",
+          "path": "instruction/vehicle-to-grid-technology/vehicle-to-grid-technology.md",
+          "id": "c4d36096-bb6c-4eb8-93c0-b0e5379e998a",
+          "state": "stub",
+          "description": "Using electric vehicles as energy storage devices."
+        },
+        {
+          "title": "Blockchain Technology",
+          "type": "instruction",
+          "path": "instruction/blockchain-technology/blockchain-technology.md",
+          "id": "3248490e-5ff8-42bc-98c8-e1b29159970a",
+          "state": "stub",
+          "description": "Applying blockchain to energy trading and grid management."
+        },
+        {
+          "title": "Artificial Intelligence",
+          "type": "instruction",
+          "path": "instruction/artificial-intelligence/artificial-intelligence.md",
+          "id": "f1b794f7-8b41-4a5e-ac7f-15ed738bea8a",
+          "state": "stub",
+          "description": "Using AI for power system optimization and control."
+        },
+        {
+          "title": "The Internet of Things",
+          "type": "instruction",
+          "path": "instruction/the-internet-of-things/the-internet-of-things.md",
+          "id": "a25154c3-dd76-42f8-8375-a328a341aa31",
+          "state": "stub",
+          "description": "Connecting power system devices to the internet."
+        },
+        {
+          "title": "Advanced Metering Infrastructure",
+          "type": "instruction",
+          "path": "instruction/advanced-metering-infrastructure/advanced-metering-infrastructure.md",
+          "id": "e509d240-e096-443d-aaf2-a972b4e87064",
+          "state": "stub",
+          "description": "Smart meters and advanced communication networks."
+        },
+        {
+          "title": "Transactive Energy",
+          "type": "instruction",
+          "path": "instruction/transactive-energy/transactive-energy.md",
+          "id": "31ac89dc-334f-49bd-b107-564b00a397ab",
+          "state": "stub",
+          "description": "Real-time energy trading between consumers and producers."
+        },
+        {
+          "title": "Quantum Computing",
+          "type": "instruction",
+          "path": "instruction/quantum-computing/quantum-computing.md",
+          "id": "4c915485-21c0-4d3b-b13f-c4f4368a90f5",
+          "state": "stub",
+          "description": "Potential applications of quantum computing in power systems."
+        },
+        {
+          "title": "Direct Current Microgrids",
+          "type": "instruction",
+          "path": "instruction/direct-current-microgrids/direct-current-microgrids.md",
+          "id": "06af42f9-e1c9-4e81-9bbb-48c6787a8a96",
+          "state": "stub",
+          "description": "DC power distribution systems for improved efficiency."
+        },
+        {
+          "title": "The Role of Policy and Regulation",
+          "type": "instruction",
+          "path": "instruction/the-role-of-policy-and-regulation/the-role-of-policy-and-regulation.md",
+          "id": "6588a73f-0241-4843-b559-e99ede15a981",
+          "state": "stub",
+          "description": "Shaping the future of the power grid through policy."
+        },
+        {
+          "title": "The Future Workforce",
+          "type": "instruction",
+          "path": "instruction/the-future-workforce/the-future-workforce.md",
+          "id": "16698658-5bfb-45fc-b15f-2123776c5f02",
+          "state": "stub",
+          "description": "Skills and training needed for the future power grid."
+        }
       ]
     }
   ]
