@@ -300,7 +300,7 @@
           "type": "instruction",
           "path": "instruction/smart-grid-technologies/smart-grid-technologies.md",
           "id": "80fac5f2-79dd-4bfd-b4c2-d95b70f88378",
-          "state": "stub",
+          "state": "stable",
           "description": "Advanced metering infrastructure (AMI) and communication networks."
         }
       ]
