@@ -42,7 +42,7 @@
           "type": "instruction",
           "path": "instruction/power-factor/power-factor.md",
           "id": "4e384486-c54b-4159-9ba5-6be3344908ca",
-          "state": "stub",
+          "state": "stable",
           "description": "Definition, importance, and correction methods."
         },
         {
