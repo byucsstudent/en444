@@ -135,7 +135,7 @@
           "type": "instruction",
           "path": "instruction/solar-power/solar-power.md",
           "id": "8563ceb1-f2ec-47f6-855d-211ebb483271",
-          "state": "stub",
+          "state": "stable",
           "description": "Photovoltaic (PV) systems and solar thermal power."
         },
         {
