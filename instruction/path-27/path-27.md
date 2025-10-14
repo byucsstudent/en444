@@ -2,6 +2,8 @@
 
 Path 27, also known as the Intermountain Power Project DC Line, is a high-voltage direct current (HVDC) power line that stretches approximately 488 miles (785 kilometers) from central Utah to the Los Angeles area in California. It's a crucial component of the Western Interconnection, a vast power grid that connects much of the western United States, Canada, and Mexico. This power line plays a vital role in transmitting electricity from a coal-fired power plant in Utah to meet the energy demands of Southern California. Understanding its history, power sources, economic factors, and the controversies surrounding it is essential for grasping the complexities of modern energy infrastructure.
 
+![IntermountainHVDCline.jpg](IntermountainHVDCline.jpg)
+
 ### History of the Project
 
 The Intermountain Power Project (IPP), including Path 27, was conceived in the 1970s in response to growing electricity demands in Southern California. At the time, Los Angeles faced increasing energy needs and sought a reliable and scalable power source. The Intermountain Power Agency (IPA), a consortium of municipalities in Utah and California, was formed to develop and operate the project.
@@ -9,6 +11,8 @@ The Intermountain Power Project (IPP), including Path 27, was conceived in the 1
 Construction of the power plant and the HVDC line began in the early 1980s, and the line became operational in 1986. It was a monumental engineering feat, traversing diverse terrains, including deserts, mountains, and valleys. The line was designed to transmit up to 1,920 megawatts (MW) of electricity, a significant portion of Los Angeles's power requirements.
 
 The original design was based on using coal as the primary fuel source, reflecting the energy landscape of the time. However, environmental concerns and the push for cleaner energy sources have led to changes in the project's fuel mix.
+
+![path27-map.png](path27-map.png)
 
 ### Power Sources
 
