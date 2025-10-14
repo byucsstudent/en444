@@ -308,7 +308,8 @@
           "type": "instruction",
           "path": "instruction/path-27/path-27.md",
           "id": "40bde02a-a926-4fcd-bec1-a4bcc6bd8db3",
-          "description": "A detailed discussion of the Path 27 power line between Utah and Los Angeles. Including history of the project, power sources, economic factors, and controversy. "
+          "description": "A detailed discussion of the Path 27 power line between Utah and Los Angeles. Including history of the project, power sources, economic factors, and controversy. ",
+          "commit": "c527e7494a299b76b07596b9a7bc6c42234fc7fe"
         }
       ]
     },
