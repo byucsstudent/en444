@@ -302,6 +302,13 @@
           "id": "80fac5f2-79dd-4bfd-b4c2-d95b70f88378",
           "state": "stable",
           "description": "Advanced metering infrastructure (AMI) and communication networks."
+        },
+        {
+          "title": "Path 27",
+          "type": "instruction",
+          "path": "instruction/path-27/path-27.md",
+          "id": "40bde02a-a926-4fcd-bec1-a4bcc6bd8db3",
+          "description": "A detailed discussion of the Path 27 power line between Utah and Los Angeles. Including history of the project, power sources, economic factors, and controversy. "
         }
       ]
     },
