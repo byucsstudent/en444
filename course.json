@@ -199,7 +199,7 @@
           "type": "instruction",
           "path": "instruction/environmental-impacts-of-power-generation/environmental-impacts-of-power-generation.md",
           "id": "9a97cfe1-ca4c-47bb-b4fc-51c61aec18bb",
-          "state": "stable",
+          "state": "stub",
           "description": "Comparing the environmental footprint of different technologies."
         }
       ]
@@ -220,7 +220,7 @@
           "type": "instruction",
           "path": "instruction/transmission-line-design/transmission-line-design.md",
           "id": "830f4f2e-edc0-45dd-baf0-d7ad380e75d4",
-          "state": "stub",
+          "state": "stable",
           "description": "Voltage levels, conductor selection, and insulation."
         },
         {
