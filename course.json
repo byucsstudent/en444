@@ -183,7 +183,7 @@
           "type": "instruction",
           "path": "instruction/distributed-generation/distributed-generation.md",
           "id": "17cc622b-68fd-402d-9e56-4f4971c0180f",
-          "state": "stable",
+          "state": "stub",
           "description": "On-site power generation and microgrids."
         },
         {
@@ -191,7 +191,7 @@
           "type": "instruction",
           "path": "instruction/the-economics-of-power-generation/the-economics-of-power-generation.md",
           "id": "2686e616-37ba-4a07-b38d-01a2ccb5966b",
-          "state": "stub",
+          "state": "stable",
           "description": "Levelized cost of energy and market dynamics."
         },
         {
