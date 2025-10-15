@@ -167,7 +167,7 @@
           "type": "instruction",
           "path": "instruction/combined-cycle-power-plants/combined-cycle-power-plants.md",
           "id": "27e7c54f-1769-4290-9824-ce9365b56a2e",
-          "state": "stable",
+          "state": "stub",
           "description": "Improving efficiency with combined cycle technology."
         },
         {
@@ -175,7 +175,7 @@
           "type": "instruction",
           "path": "instruction/emerging-generation-technologies/emerging-generation-technologies.md",
           "id": "bb0655d5-ae5e-468c-a826-34f1480d58bb",
-          "state": "stub",
+          "state": "stable",
           "description": "Fuel cells, wave energy, and other innovative approaches."
         },
         {
