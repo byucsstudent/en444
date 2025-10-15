@@ -236,7 +236,7 @@
           "type": "instruction",
           "path": "instruction/substations/substations.md",
           "id": "feb23908-1c06-4e46-9cfa-b42315df23f1",
-          "state": "stable",
+          "state": "stub",
           "description": "Functions and components of substations."
         },
         {
@@ -244,7 +244,7 @@
           "type": "instruction",
           "path": "instruction/distribution-systems/distribution-systems.md",
           "id": "31f9625b-6052-4358-84c0-9dc4be1e265c",
-          "state": "stub",
+          "state": "stable",
           "description": "Primary and secondary distribution networks."
         },
         {
