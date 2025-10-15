@@ -765,7 +765,7 @@
           "type": "instruction",
           "path": "instruction/the-internet-of-things/the-internet-of-things.md",
           "id": "a25154c3-dd76-42f8-8375-a328a341aa31",
-          "state": "stub",
+          "state": "stable",
           "description": "Connecting power system devices to the internet."
         },
         {
