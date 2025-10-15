@@ -159,7 +159,7 @@
           "type": "instruction",
           "path": "instruction/biomass-power/biomass-power.md",
           "id": "15ae8fb4-8176-4860-a63b-a3be4d6508ef",
-          "state": "stub",
+          "state": "stable",
           "description": "Electricity generation from biomass resources."
         },
         {
