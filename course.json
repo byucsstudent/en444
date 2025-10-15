@@ -749,7 +749,7 @@
           "type": "instruction",
           "path": "instruction/blockchain-technology/blockchain-technology.md",
           "id": "3248490e-5ff8-42bc-98c8-e1b29159970a",
-          "state": "stub",
+          "state": "stable",
           "description": "Applying blockchain to energy trading and grid management."
         },
         {
