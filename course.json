@@ -127,7 +127,7 @@
           "type": "instruction",
           "path": "instruction/hydroelectric-power-plants/hydroelectric-power-plants.md",
           "id": "66069284-17fa-4d3d-89a5-332a164a456e",
-          "state": "stable",
+          "state": "stub",
           "description": "Hydropower generation and dam technology."
         },
         {
@@ -143,7 +143,7 @@
           "type": "instruction",
           "path": "instruction/wind-power/wind-power.md",
           "id": "50c0794d-1836-4b91-932b-b6b1c3225341",
-          "state": "stub",
+          "state": "stable",
           "description": "Wind turbine technology and wind farm operation."
         },
         {
