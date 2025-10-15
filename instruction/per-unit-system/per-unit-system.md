@@ -1,116 +1,101 @@
 # Per-Unit System
 
-The per-unit system is a powerful tool for simplifying power system calculations. Instead of dealing with large numbers and various voltage and power levels, the per-unit system normalizes all quantities to a common base, making calculations much easier to manage and interpret. It significantly reduces the chances of errors and provides a clearer picture of the system's behavior. This approach transforms actual values (like volts, amps, ohms) into dimensionless ratios, relative to chosen base values. This normalization simplifies complex calculations, especially in systems with multiple voltage levels due to transformers.
+The per-unit system is a method of normalizing electrical quantities—voltage, current, power, and impedance—to a common base. This simplification significantly streamlines power system analysis, especially in large, interconnected grids, by reducing the number of calculations and making it easier to identify potential problems. Using per-unit values allows engineers to quickly understand the relative magnitude of different quantities within the system, regardless of the actual voltage and power levels. It eliminates the need to refer impedances to one side of a transformer.
 
-**Why Use the Per-Unit System?**
+## Basic Concepts
 
-*   **Simplification:** Reduces the magnitude of numbers, making calculations easier.
-*   **Transformer Elimination:** Transformers' turns ratios are effectively eliminated from calculations (ideal transformers), simplifying network analysis.
-*   **Equipment Comparison:** Allows easy comparison of equipment parameters across different voltage and power levels.
-*   **Error Reduction:** Reduces the likelihood of errors in calculations due to consistent units and smaller magnitudes.
-*   **Standardization:** Facilitates the use of standardized impedance values for equipment.
-
-**Basic Concepts**
-
-The per-unit value of any quantity is defined as:
+The core idea behind the per-unit system is to express all electrical quantities as a fraction (or percentage) of a chosen base value. The base values are usually chosen such that they are convenient for the particular system being analyzed. Once the base values are selected, the per-unit value of any quantity is calculated as:
 
 ```
 Per-Unit Value = (Actual Value) / (Base Value)
 ```
 
-The base values are chosen arbitrarily, but certain relationships must be maintained. The most common choice is to select base values for apparent power (S<sub>base</sub>) and voltage (V<sub>base</sub>). From these, the base values for current (I<sub>base</sub>) and impedance (Z<sub>base</sub>) can be derived.
+Typically, two base quantities are chosen independently: a base voltage (V<sub>base</sub>) and a base power (S<sub>base</sub>). Once these two are selected, the other base quantities, such as base current (I<sub>base</sub>) and base impedance (Z<sub>base</sub>), are derived from them:
 
-**Base Value Selection**
+*   **Base Current (I<sub>base</sub>):** I<sub>base</sub> = S<sub>base</sub> / V<sub>base</sub> (for single-phase systems) or I<sub>base</sub> = S<sub>base</sub> / (√3 * V<sub>base</sub>) (for three-phase systems)
+*   **Base Impedance (Z<sub>base</sub>):** Z<sub>base</sub> = V<sub>base</sub> / I<sub>base</sub> = V<sub>base</sub><sup>2</sup> / S<sub>base</sub>
 
-1.  **Apparent Power (S<sub>base</sub>):**  A convenient value for the entire system is chosen, typically in MVA (Mega Volt-Amperes). This value remains constant throughout the system, regardless of voltage levels.
-2.  **Voltage (V<sub>base</sub>):** The base voltage is typically selected based on the nominal voltage of a specific section of the power system.  When dealing with transformers, the voltage base changes across the transformer based on the transformer's turns ratio.  It's crucial to select the correct base voltage for each voltage level in the system.
-3.  **Current (I<sub>base</sub>):** Derived from S<sub>base</sub> and V<sub>base</sub> using the following formula:
+It's important to note that S<sub>base</sub> is a three-phase value in three-phase systems.
 
-    ```
-    I_base = S_base / (sqrt(3) * V_base)  (for three-phase systems)
-    I_base = S_base / V_base              (for single-phase systems)
-    ```
-4.  **Impedance (Z<sub>base</sub>):** Derived from V<sub>base</sub> and I<sub>base</sub> using Ohm's Law:
+## Advantages of Using Per-Unit System
 
-    ```
-    Z_base = V_base / I_base = V_base^2 / S_base
-    ```
+The per-unit system offers several advantages in power system analysis:
 
-**Example: Calculating Base Values**
+*   **Simplified Calculations:** Calculations are simplified because the per-unit impedance of transformers is often the same regardless of which side of the transformer it is calculated from.
+*   **Easy Comparison:** Per-unit values allow for easy comparison of different components within a system, even if they operate at different voltage levels.
+*   **Error Detection:** Unusual per-unit values can quickly highlight potential problems or errors in the system. For example, a very high per-unit current might indicate a fault.
+*   **Manufacturer Data:** Equipment impedances are often provided in per-unit values by manufacturers, simplifying system modeling.
+*   **System Invariance:** The per-unit impedance of a transformer is the same whether viewed from the high-voltage or low-voltage side. This eliminates the need to refer impedances across transformers.
 
-Let's consider a 13.8 kV/138 kV transformer rated at 10 MVA. We choose a base apparent power of 10 MVA for the entire system.
+## Example: Single-Phase System
 
-*   **Low-Voltage Side (13.8 kV):**
-    *   S<sub>base</sub> = 10 MVA
-    *   V<sub>base</sub> = 13.8 kV
-    *   I<sub>base</sub> = 10 MVA / (sqrt(3) * 13.8 kV) = 418.37 A
-    *   Z<sub>base</sub> = (13.8 kV)^2 / 10 MVA = 19.044 ohms
+Consider a single-phase transformer rated at 10 kVA, 2400/240 V, with a series impedance of 10 + j20 ohms referred to the high-voltage (2400 V) side.
 
-*   **High-Voltage Side (138 kV):**
-    *   S<sub>base</sub> = 10 MVA
-    *   V<sub>base</sub> = 138 kV
-    *   I<sub>base</sub> = 10 MVA / (sqrt(3) * 138 kV) = 41.84 A
-    *   Z<sub>base</sub> = (138 kV)^2 / 10 MVA = 1904.4 ohms
+1.  **Choose Base Values:** Let's choose S<sub>base</sub> = 10 kVA and V<sub>base</sub> = 2400 V (on the high-voltage side).
 
-Notice how the base impedance differs significantly between the low-voltage and high-voltage sides.
+2.  **Calculate Base Impedance:** Z<sub>base</sub> = V<sub>base</sub><sup>2</sup> / S<sub>base</sub> = (2400<sup>2</sup>) / 10000 = 576 ohms
 
-**Converting Actual Values to Per-Unit**
+3.  **Calculate Per-Unit Impedance:** Z<sub>pu</sub> = (Actual Impedance) / (Base Impedance) = (10 + j20) / 576 = 0.0174 + j0.0347 pu
 
-Once the base values are determined, you can convert any actual value to its per-unit equivalent.
+Now, consider the low-voltage side. If we choose V<sub>base</sub> = 240 V, then the base impedance is Z<sub>base</sub> = (240<sup>2</sup>) / 10000 = 5.76 ohms. The actual impedance referred to the low-voltage side is (10 + j20) * (240/2400)<sup>2</sup> = 0.1 + j0.2 ohms. The per-unit impedance is Z<sub>pu</sub> = (0.1 + j0.2) / 5.76 = 0.0174 + j0.0347 pu. The per-unit impedance is the same on both sides of the transformer.
 
-**Example: Converting Impedance to Per-Unit**
+## Example: Three-Phase System
 
-Suppose a transmission line has an impedance of 10 + j50 ohms, and the base impedance for that section of the system is 100 ohms.
+A three-phase power system has a 100 MVA, 13.8 kV generator connected to a transformer rated 100 MVA, 13.8 kV Δ / 115 kV Y with a per-unit leakage reactance of 0.08 pu. Choose S<sub>base</sub> = 100 MVA and V<sub>base</sub> = 13.8 kV on the generator side and V<sub>base</sub> = 115 kV on the high-voltage side of the transformer.
 
-*   Z<sub>actual</sub> = 10 + j50 ohms
-*   Z<sub>base</sub> = 100 ohms
-*   Z<sub>pu</sub> = (10 + j50) / 100 = 0.1 + j0.5 pu
+The per-unit reactance of the transformer is already given as 0.08 pu. This value remains the same regardless of whether we are referring to the generator side or the high-voltage side, as long as we maintain a consistent base MVA throughout the system.
 
-**Changing Base Values**
+## Changing Base Values
 
-Sometimes, you may need to change the base values used in a calculation.  For instance, you might have impedance data provided on one base, but your system calculations require a different base.  The following formula allows you to convert per-unit impedance from one base to another:
+Sometimes, you need to convert per-unit values from one base to another. The following formula is used:
 
 ```
 Z_pu_new = Z_pu_old * (V_base_old / V_base_new)^2 * (S_base_new / S_base_old)
 ```
 
-**Example: Changing Base Values**
+Where:
 
-A generator has a reactance of 0.2 pu on a base of 13.8 kV and 50 MVA.  What is the per-unit reactance on a base of 13.2 kV and 75 MVA?
+*   Z<sub>pu_new</sub> is the per-unit impedance on the new base
+*   Z<sub>pu_old</sub> is the per-unit impedance on the old base
+*   V<sub>base_old</sub> is the old base voltage
+*   V<sub>base_new</sub> is the new base voltage
+*   S<sub>base_old</sub> is the old base power
+*   S<sub>base_new</sub> is the new base power
 
-*   Z<sub>pu_old</sub> = 0.2 pu
-*   V<sub>base_old</sub> = 13.8 kV
-*   S<sub>base_old</sub> = 50 MVA
-*   V<sub>base_new</sub> = 13.2 kV
-*   S<sub>base_new</sub> = 75 MVA
+**Example:** A transformer has a per-unit impedance of 0.05 pu on a base of 10 MVA and 13.8 kV. What is the per-unit impedance on a base of 20 MVA and 6.9 kV?
 
-```
-Z_pu_new = 0.2 * (13.8 / 13.2)^2 * (75 / 50) = 0.329 pu
-```
+Using the formula:
 
-**Applying Per-Unit to Power System Components**
+Z<sub>pu_new</sub> = 0.05 * (13.8 / 6.9)<sup>2</sup> * (20 / 10) = 0.05 * 4 * 2 = 0.4 pu
 
-*   **Generators:** Generator parameters (reactance, voltage) are typically given in per-unit.
-*   **Transformers:**  A key advantage of the per-unit system is that the transformer's turns ratio is implicitly accounted for. When the base voltages are chosen according to the transformer's voltage ratio, the per-unit impedance of the transformer is the same whether referred to the high-voltage or low-voltage side. This simplifies circuit analysis because the ideal transformer can be removed from the equivalent circuit.
-*   **Transmission Lines:** Line impedance is converted to per-unit using the appropriate base values.
-*   **Loads:** Loads can be represented as constant impedances, constant currents, or constant power, and their values are converted to per-unit.
+## Common Challenges and Solutions
 
-**Common Challenges and Solutions**
+*   **Incorrect Base Value Selection:** Choosing inappropriate base values can complicate calculations. Solution: Select base values that are close to the actual operating values or the ratings of major equipment.
+*   **Confusion with Single-Phase vs. Three-Phase:** Ensure you are using the correct formulas for base current and impedance, depending on whether you are analyzing a single-phase or three-phase system. Always specify whether S<sub>base</sub> is a single-phase or three-phase value.
+*   **Changing Base Values Incorrectly:** Using the wrong formula or making errors in the conversion process can lead to incorrect results. Solution: Double-check the formula and ensure the units are consistent.
+*   **Forgetting to Convert Back to Actual Values:** After performing calculations in per-unit, remember to convert the results back to actual values for practical interpretation. Solution: Keep track of your base values and use them to convert back to actual values.
 
-*   **Incorrect Base Value Selection:** This is a common source of errors.  Double-check that the base values are consistent throughout the system and that voltage bases are correctly adjusted across transformers. *Solution:* Carefully track base values for each zone of the power system.  Use a single-line diagram to visually represent the system and note base values at each location.
-*   **Forgetting to Convert Back to Actual Values:** After performing calculations in per-unit, remember to convert the results back to actual values for practical interpretation. *Solution:*  Clearly label all per-unit values and include a reminder to convert back to actual values at the end of the calculation.
-*   **Mixing Single-Phase and Three-Phase Base Values:** Ensure consistency. If using three-phase base values, all calculations must be done on a three-phase basis. *Solution:*  Explicitly state whether you are using single-phase or three-phase base values.  When converting between the two, use the appropriate conversion factors (e.g., sqrt(3) for voltage and current).
-*   **Dealing with Three-Winding Transformers:** Three-winding transformers require careful consideration of base values and equivalent impedances. *Solution:* Use the wye-equivalent circuit representation of the three-winding transformer and ensure that the base values are consistent across all three windings.
+## Practical Applications
 
-**Engagement and Further Exploration**
+The per-unit system is widely used in power system studies, including:
 
-To solidify your understanding, consider these steps:
+*   **Load Flow Analysis:** Determining the voltage and current distribution in a power system under various operating conditions.
+*   **Short-Circuit Analysis:** Calculating fault currents to design protective devices and ensure system stability.
+*   **Transient Stability Analysis:** Studying the dynamic behavior of a power system following a disturbance, such as a fault or a sudden load change.
+*   **Harmonic Analysis:** Analyzing the presence of harmonic currents and voltages in the system.
 
-*   **Work Through Examples:** Practice converting actual values to per-unit and vice versa. Solve power flow problems using the per-unit system.
-*   **Simulate a Simple Power System:** Use power system simulation software (e.g., PowerWorld, ETAP, PSS/E) to model a small power system and perform calculations in per-unit.
-*   **Review IEEE Standards:** Consult IEEE standards related to per-unit systems for more in-depth information and best practices.
-*   **Reflect:** How does using per-unit simplify calculations in systems with multiple voltage levels?  What are the potential pitfalls of using per-unit and how can they be avoided?
+## Further Learning
 
-**Summary**
+For deeper understanding, consider exploring these resources:
 
-The per-unit system is a valuable tool for simplifying power system analysis. By normalizing quantities to a common base, it reduces calculation complexity, minimizes errors, and facilitates equipment comparison. Understanding the principles of base value selection, conversion to per-unit, and base changing is crucial for effective application of this technique. While challenges exist, careful attention to detail and consistent application of the principles will lead to accurate and efficient power system calculations.
+*   **Books:**
+    *   "Power System Analysis and Design" by J. Duncan Glover, Mulukutla S. Sarma, and Thomas J. Overbye
+    *   "Electrical Power Systems: Analysis, Design, and Operation" by A. K. Al-Othman, J. J. Grainger, and William D. Stevenson, Jr.
+
+*   **Online Resources:**
+    *   IEEE Power & Energy Society (PES) website: [https://www.ieee-pes.org/](https://www.ieee-pes.org/)
+    *   MIT OpenCourseWare offers courses on power system analysis.
+
+## Summary
+
+The per-unit system is a powerful tool for simplifying power system calculations. By normalizing electrical quantities to a common base, it facilitates easier comparison of different components, reduces the complexity of calculations, and helps in identifying potential problems. Understanding the basic concepts, advantages, and limitations of the per-unit system is essential for any power system engineer. Remember to choose appropriate base values, pay attention to single-phase versus three-phase considerations, and always convert back to actual values for practical interpretation. Now, consider how you might apply the per-unit system to analyze a simple power distribution network. What base values would you choose, and why?
