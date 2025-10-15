@@ -212,7 +212,7 @@
           "type": "instruction",
           "path": "instruction/transmission-line-characteristics/transmission-line-characteristics.md",
           "id": "e9421343-1e40-4695-85db-adf42ee514c0",
-          "state": "stub",
+          "state": "stable",
           "description": "Resistance, inductance, and capacitance of transmission lines."
         },
         {
