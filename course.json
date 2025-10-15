@@ -321,7 +321,7 @@
           "type": "instruction",
           "path": "instruction/protective-relaying/protective-relaying.md",
           "id": "e63c7041-0294-4a8f-8c0a-f6d1d9bc3009",
-          "state": "stub",
+          "state": "stable",
           "description": "Principles and types of protective relays."
         },
         {
