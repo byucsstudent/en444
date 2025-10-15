@@ -337,7 +337,7 @@
           "type": "instruction",
           "path": "instruction/fault-analysis/fault-analysis.md",
           "id": "8205aa72-5551-4f19-b602-e9660f007740",
-          "state": "stub",
+          "state": "stable",
           "description": "Symmetrical and unsymmetrical fault calculations."
         },
         {
