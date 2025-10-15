@@ -151,7 +151,7 @@
           "type": "instruction",
           "path": "instruction/geothermal-power/geothermal-power.md",
           "id": "a0238291-fc1b-43ce-90c5-8a49f8c49c8f",
-          "state": "stable",
+          "state": "stub",
           "description": "Harnessing geothermal energy for electricity generation."
         },
         {
@@ -167,7 +167,7 @@
           "type": "instruction",
           "path": "instruction/combined-cycle-power-plants/combined-cycle-power-plants.md",
           "id": "27e7c54f-1769-4290-9824-ce9365b56a2e",
-          "state": "stub",
+          "state": "stable",
           "description": "Improving efficiency with combined cycle technology."
         },
         {
