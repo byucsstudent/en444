@@ -58,7 +58,7 @@
           "type": "instruction",
           "path": "instruction/power-system-components/power-system-components.md",
           "id": "75bd724c-778d-444b-bf19-1c824dd51a5c",
-          "state": "stub",
+          "state": "stable",
           "description": "Introduction to generators, transformers, and transmission lines."
         },
         {
