@@ -82,7 +82,7 @@
           "type": "instruction",
           "path": "instruction/power-system-stability/power-system-stability.md",
           "id": "829bebc4-f02f-4828-8ca4-3e0d63eb08fc",
-          "state": "stable",
+          "state": "stub",
           "description": "Introduction to transient and steady-state stability."
         },
         {
@@ -90,7 +90,7 @@
           "type": "instruction",
           "path": "instruction/introduction-to-power-system-analysis/introduction-to-power-system-analysis.md",
           "id": "1940072d-2f3a-42eb-8058-a0ca951f0be9",
-          "state": "stub",
+          "state": "stable",
           "description": "An overview of load flow, short circuit, and stability analysis."
         },
         {
