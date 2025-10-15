@@ -90,7 +90,7 @@
           "type": "instruction",
           "path": "instruction/introduction-to-power-system-analysis/introduction-to-power-system-analysis.md",
           "id": "1940072d-2f3a-42eb-8058-a0ca951f0be9",
-          "state": "stable",
+          "state": "stub",
           "description": "An overview of load flow, short circuit, and stability analysis."
         },
         {
@@ -98,7 +98,7 @@
           "type": "instruction",
           "path": "instruction/symmetrical-components/symmetrical-components.md",
           "id": "e21141b8-fa78-4e28-99ee-bff80110a2b4",
-          "state": "stub",
+          "state": "stable",
           "description": "Understanding sequence networks."
         }
       ]
