@@ -50,7 +50,7 @@
           "type": "instruction",
           "path": "instruction/impedance-and-reactance/impedance-and-reactance.md",
           "id": "f6125399-42d7-4039-8baa-272f0ada7c62",
-          "state": "stub",
+          "state": "stable",
           "description": "Understanding the opposition to current flow in AC circuits."
         },
         {
