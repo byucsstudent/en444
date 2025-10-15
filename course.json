@@ -385,7 +385,7 @@
           "type": "instruction",
           "path": "instruction/power-system-stability-control/power-system-stability-control.md",
           "id": "91fc9e7e-e79f-4070-acd3-585c84895510",
-          "state": "stub",
+          "state": "stable",
           "description": "Techniques for enhancing system stability."
         },
         {
