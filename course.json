@@ -143,7 +143,7 @@
           "type": "instruction",
           "path": "instruction/wind-power/wind-power.md",
           "id": "50c0794d-1836-4b91-932b-b6b1c3225341",
-          "state": "stable",
+          "state": "stub",
           "description": "Wind turbine technology and wind farm operation."
         },
         {
@@ -151,7 +151,7 @@
           "type": "instruction",
           "path": "instruction/geothermal-power/geothermal-power.md",
           "id": "a0238291-fc1b-43ce-90c5-8a49f8c49c8f",
-          "state": "stub",
+          "state": "stable",
           "description": "Harnessing geothermal energy for electricity generation."
         },
         {
