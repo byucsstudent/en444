@@ -757,7 +757,7 @@
           "type": "instruction",
           "path": "instruction/artificial-intelligence/artificial-intelligence.md",
           "id": "f1b794f7-8b41-4a5e-ac7f-15ed738bea8a",
-          "state": "stub",
+          "state": "stable",
           "description": "Using AI for power system optimization and control."
         },
         {
