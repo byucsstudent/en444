@@ -199,7 +199,7 @@
           "type": "instruction",
           "path": "instruction/environmental-impacts-of-power-generation/environmental-impacts-of-power-generation.md",
           "id": "9a97cfe1-ca4c-47bb-b4fc-51c61aec18bb",
-          "state": "stub",
+          "state": "stable",
           "description": "Comparing the environmental footprint of different technologies."
         }
       ]
@@ -212,7 +212,7 @@
           "type": "instruction",
           "path": "instruction/transmission-line-characteristics/transmission-line-characteristics.md",
           "id": "e9421343-1e40-4695-85db-adf42ee514c0",
-          "state": "stub",
+          "state": "stable",
           "description": "Resistance, inductance, and capacitance of transmission lines."
         },
         {
@@ -220,7 +220,7 @@
           "type": "instruction",
           "path": "instruction/transmission-line-design/transmission-line-design.md",
           "id": "830f4f2e-edc0-45dd-baf0-d7ad380e75d4",
-          "state": "stub",
+          "state": "stable",
           "description": "Voltage levels, conductor selection, and insulation."
         },
         {
@@ -252,7 +252,7 @@
           "type": "instruction",
           "path": "instruction/distribution-automation/distribution-automation.md",
           "id": "d7396e66-f049-42cc-8d54-1775e8d38bf0",
-          "state": "stub",
+          "state": "stable",
           "description": "Smart grid technologies for distribution systems."
         },
         {
@@ -260,7 +260,7 @@
           "type": "instruction",
           "path": "instruction/power-transformers/power-transformers.md",
           "id": "ae42f2d1-21f6-46cd-abe1-8aaad615ce61",
-          "state": "stub",
+          "state": "stable",
           "description": "Transformer operation and applications in power systems."
         },
         {
@@ -268,7 +268,7 @@
           "type": "instruction",
           "path": "instruction/insulators/insulators.md",
           "id": "c097fba0-7768-4df4-960f-2a53bc1d714f",
-          "state": "stub",
+          "state": "stable",
           "description": "Types of insulators and their performance characteristics."
         },
         {
@@ -276,7 +276,7 @@
           "type": "instruction",
           "path": "instruction/conductors/conductors.md",
           "id": "69893935-e65a-48c3-9941-3a2b1c06983b",
-          "state": "stub",
+          "state": "stable",
           "description": "Conductor materials and their properties."
         },
         {
@@ -284,7 +284,7 @@
           "type": "instruction",
           "path": "instruction/overhead-vs-underground-transmission/overhead-vs-underground-transmission.md",
           "id": "77f615e9-f324-474f-8dba-c7c190255957",
-          "state": "stub",
+          "state": "stable",
           "description": "Comparing the advantages and disadvantages of each approach."
         },
         {
@@ -321,7 +321,7 @@
           "type": "instruction",
           "path": "instruction/protective-relaying/protective-relaying.md",
           "id": "e63c7041-0294-4a8f-8c0a-f6d1d9bc3009",
-          "state": "stub",
+          "state": "stable",
           "description": "Principles and types of protective relays."
         },
         {
@@ -329,7 +329,7 @@
           "type": "instruction",
           "path": "instruction/circuit-breakers/circuit-breakers.md",
           "id": "2bd299c6-2348-4e49-bf7a-a0224476d7f4",
-          "state": "stub",
+          "state": "stable",
           "description": "Circuit breaker operation and applications."
         },
         {
@@ -337,7 +337,7 @@
           "type": "instruction",
           "path": "instruction/fault-analysis/fault-analysis.md",
           "id": "8205aa72-5551-4f19-b602-e9660f007740",
-          "state": "stub",
+          "state": "stable",
           "description": "Symmetrical and unsymmetrical fault calculations."
         },
         {
@@ -345,7 +345,7 @@
           "type": "instruction",
           "path": "instruction/overcurrent-protection/overcurrent-protection.md",
           "id": "4ca6a1b2-58c2-4297-a1e0-53d836164c25",
-          "state": "stub",
+          "state": "stable",
           "description": "Time-current characteristics and coordination."
         },
         {
@@ -353,7 +353,7 @@
           "type": "instruction",
           "path": "instruction/distance-protection/distance-protection.md",
           "id": "32760916-a96f-4dfe-8e9e-e161f45b3dd0",
-          "state": "stub",
+          "state": "stable",
           "description": "Impedance-based protection schemes."
         },
         {
@@ -361,7 +361,7 @@
           "type": "instruction",
           "path": "instruction/differential-protection/differential-protection.md",
           "id": "ca74f4e0-c8bd-4519-b33d-d46f3690dc74",
-          "state": "stub",
+          "state": "stable",
           "description": "Protecting transformers and generators."
         },
         {
@@ -369,7 +369,7 @@
           "type": "instruction",
           "path": "instruction/generator-protection/generator-protection.md",
           "id": "230fd3c1-df38-4ba7-a70f-e0dfac8dbf40",
-          "state": "stub",
+          "state": "stable",
           "description": "Specific protection requirements for generators."
         },
         {
@@ -377,7 +377,7 @@
           "type": "instruction",
           "path": "instruction/transformer-protection/transformer-protection.md",
           "id": "7c72f96d-88ba-4c41-8ebb-1ef9ad602e6c",
-          "state": "stub",
+          "state": "stable",
           "description": "Specific protection requirements for transformers."
         },
         {
@@ -385,7 +385,7 @@
           "type": "instruction",
           "path": "instruction/power-system-stability-control/power-system-stability-control.md",
           "id": "91fc9e7e-e79f-4070-acd3-585c84895510",
-          "state": "stub",
+          "state": "stable",
           "description": "Techniques for enhancing system stability."
         },
         {
@@ -393,7 +393,7 @@
           "type": "instruction",
           "path": "instruction/wide-area-measurement-systems/wide-area-measurement-systems.md",
           "id": "61681489-6a72-4954-8e50-cbf95a42abe1",
-          "state": "stub",
+          "state": "stable",
           "description": "Using synchrophasors for real-time monitoring."
         },
         {
@@ -401,7 +401,7 @@
           "type": "instruction",
           "path": "instruction/adaptive-protection/adaptive-protection.md",
           "id": "516bddc9-6d19-48ff-b258-a14254faa8c9",
-          "state": "stub",
+          "state": "stable",
           "description": "Adjusting protection settings based on system conditions."
         },
         {
@@ -409,7 +409,7 @@
           "type": "instruction",
           "path": "instruction/control-center-operations/control-center-operations.md",
           "id": "b603ba4b-d7d4-4f70-ab85-3a739ce30fdd",
-          "state": "stub",
+          "state": "stable",
           "description": "SCADA systems and energy management systems."
         }
       ]
@@ -422,7 +422,7 @@
           "type": "instruction",
           "path": "instruction/variability-and-intermittency-of-renewables/variability-and-intermittency-of-renewables.md",
           "id": "52f77b6e-4bf9-4344-ac29-2f9b91f8bdf0",
-          "state": "stub",
+          "state": "stable",
           "description": "Addressing the challenges of fluctuating renewable energy output."
         },
         {
@@ -430,7 +430,7 @@
           "type": "instruction",
           "path": "instruction/grid-integration-of-solar-power/grid-integration-of-solar-power.md",
           "id": "81c62b9d-4c76-4166-a5e4-90be715e4123",
-          "state": "stub",
+          "state": "stable",
           "description": "Integrating large-scale solar farms and rooftop PV systems."
         },
         {
@@ -438,7 +438,7 @@
           "type": "instruction",
           "path": "instruction/grid-integration-of-wind-power/grid-integration-of-wind-power.md",
           "id": "90158606-a948-47ed-be9d-2e165473f212",
-          "state": "stub",
+          "state": "stable",
           "description": "Integrating wind farms and managing wind power variability."
         },
         {
@@ -446,7 +446,7 @@
           "type": "instruction",
           "path": "instruction/energy-storage-systems/energy-storage-systems.md",
           "id": "d1d4dd05-6bf1-49ea-82d5-1d5977f8b2ec",
-          "state": "stub",
+          "state": "stable",
           "description": "Batteries, pumped hydro, and other energy storage technologies."
         },
         {
@@ -454,7 +454,7 @@
           "type": "instruction",
           "path": "instruction/demand-response/demand-response.md",
           "id": "4a2e032b-3469-48ce-be34-794178ff83a2",
-          "state": "stub",
+          "state": "stable",
           "description": "Managing electricity demand to improve grid stability."
         },
         {
@@ -462,7 +462,7 @@
           "type": "instruction",
           "path": "instruction/smart-inverters/smart-inverters.md",
           "id": "002873c5-6ca2-4912-bcdf-d46e193c2a6a",
-          "state": "stub",
+          "state": "stable",
           "description": "Advanced inverter functionalities for grid support."
         },
         {
@@ -470,7 +470,7 @@
           "type": "instruction",
           "path": "instruction/microgrids/microgrids.md",
           "id": "6ceef334-6a9b-452b-9e20-4635d59e519a",
-          "state": "stub",
+          "state": "stable",
           "description": "Localized power grids with renewable energy sources and storage."
         },
         {
@@ -478,7 +478,7 @@
           "type": "instruction",
           "path": "instruction/virtual-power-plants/virtual-power-plants.md",
           "id": "db7e73cf-dfbc-4676-b47a-127687fd64ee",
-          "state": "stub",
+          "state": "stable",
           "description": "Aggregating distributed energy resources to act as a single power plant."
         },
         {
@@ -486,7 +486,7 @@
           "type": "instruction",
           "path": "instruction/forecasting-renewable-energy-output/forecasting-renewable-energy-output.md",
           "id": "ff287476-314a-451e-8568-373400f54d99",
-          "state": "stub",
+          "state": "stable",
           "description": "Predicting solar and wind power generation."
         },
         {
@@ -494,7 +494,7 @@
           "type": "instruction",
           "path": "instruction/power-system-planning-with-renewables/power-system-planning-with-renewables.md",
           "id": "8b45ec30-af0d-4c7e-9d4b-b921fda5417b",
-          "state": "stub",
+          "state": "stable",
           "description": "Incorporating renewable energy into long-term power system plans."
         },
         {
@@ -502,7 +502,7 @@
           "type": "instruction",
           "path": "instruction/regulations-and-policies-for-renewables/regulations-and-policies-for-renewables.md",
           "id": "c8698f72-0ea2-4114-a97d-e3598e2d196c",
-          "state": "stub",
+          "state": "stable",
           "description": "Incentives and mandates for renewable energy development."
         },
         {
@@ -510,7 +510,7 @@
           "type": "instruction",
           "path": "instruction/economic-considerations-for-renewable-energy/economic-considerations-for-renewable-energy.md",
           "id": "52a4f899-23b6-4b60-92bb-a172700c0fd0",
-          "state": "stub",
+          "state": "stable",
           "description": "Cost-benefit analysis and investment strategies."
         }
       ]
@@ -523,7 +523,7 @@
           "type": "instruction",
           "path": "instruction/battery-technologies/battery-technologies.md",
           "id": "48d07755-5d2e-49f6-82f8-2a73b2863368",
-          "state": "stub",
+          "state": "stable",
           "description": "Lithium-ion, lead-acid, and other battery chemistries."
         },
         {
@@ -531,7 +531,7 @@
           "type": "instruction",
           "path": "instruction/pumped-hydro-storage/pumped-hydro-storage.md",
           "id": "2ea4619d-6eb6-4748-ad51-5c69c4f524df",
-          "state": "stub",
+          "state": "stable",
           "description": "Using water reservoirs for energy storage."
         },
         {
@@ -539,7 +539,7 @@
           "type": "instruction",
           "path": "instruction/compressed-air-energy-storage/compressed-air-energy-storage.md",
           "id": "62642932-0daa-4ca5-8414-921de97c3e55",
-          "state": "stub",
+          "state": "stable",
           "description": "Storing energy by compressing air."
         },
         {
@@ -555,7 +555,7 @@
           "type": "instruction",
           "path": "instruction/thermal-energy-storage/thermal-energy-storage.md",
           "id": "f7021bdc-c110-4d42-87fe-cdcd93f67c7a",
-          "state": "stub",
+          "state": "stable",
           "description": "Storing energy in the form of heat or cold."
         },
         {
@@ -563,7 +563,7 @@
           "type": "instruction",
           "path": "instruction/hydrogen-energy-storage/hydrogen-energy-storage.md",
           "id": "a3c1a9f4-2df7-46b4-aaea-5fc6f567a707",
-          "state": "stub",
+          "state": "stable",
           "description": "Producing and storing hydrogen as an energy carrier."
         },
         {
@@ -571,7 +571,7 @@
           "type": "instruction",
           "path": "instruction/supercapacitors/supercapacitors.md",
           "id": "701e3c0a-a6a1-4e76-9c4b-677ea26fa1ad",
-          "state": "stub",
+          "state": "stable",
           "description": "Electrical double-layer capacitors for energy storage."
         },
         {
@@ -587,7 +587,7 @@
           "type": "instruction",
           "path": "instruction/residential-energy-storage/residential-energy-storage.md",
           "id": "84588b92-0821-470d-b5fe-d9bb901200d9",
-          "state": "stub",
+          "state": "stable",
           "description": "Battery systems for homes and businesses."
         },
         {
@@ -595,7 +595,7 @@
           "type": "instruction",
           "path": "instruction/energy-storage-system-integration/energy-storage-system-integration.md",
           "id": "1b2dafc7-4e20-4812-a6b7-3d6ac8d410fb",
-          "state": "stub",
+          "state": "stable",
           "description": "Connecting energy storage systems to the grid."
         },
         {
@@ -603,7 +603,7 @@
           "type": "instruction",
           "path": "instruction/the-economics-of-energy-storage/the-economics-of-energy-storage.md",
           "id": "400a4b41-4c25-48f2-94a3-735d6cc4d4b7",
-          "state": "stub",
+          "state": "stable",
           "description": "Cost-benefit analysis of energy storage projects."
         },
         {
@@ -611,7 +611,7 @@
           "type": "instruction",
           "path": "instruction/safety-considerations-for-energy-storage/safety-considerations-for-energy-storage.md",
           "id": "1bdb2173-086c-4a04-bdfe-cad5c41cb458",
-          "state": "stub",
+          "state": "stable",
           "description": "Addressing safety concerns related to energy storage systems."
         }
       ]
@@ -624,7 +624,7 @@
           "type": "instruction",
           "path": "instruction/causes-of-power-outages/causes-of-power-outages.md",
           "id": "89fc2cd7-e05f-4ba9-900d-db5bb92f8dea",
-          "state": "stub",
+          "state": "stable",
           "description": "Natural disasters, equipment failures, and cyberattacks."
         },
         {
@@ -632,7 +632,7 @@
           "type": "instruction",
           "path": "instruction/blackout-prevention/blackout-prevention.md",
           "id": "ebb86515-a856-4a37-b75a-e9399a8b41fd",
-          "state": "stub",
+          "state": "stable",
           "description": "Strategies for preventing cascading failures."
         },
         {
@@ -640,7 +640,7 @@
           "type": "instruction",
           "path": "instruction/grid-hardening/grid-hardening.md",
           "id": "0d1387f2-b22a-44e0-bff9-f846437527f1",
-          "state": "stub",
+          "state": "stable",
           "description": "Protecting critical infrastructure from physical threats."
         },
         {
@@ -648,7 +648,7 @@
           "type": "instruction",
           "path": "instruction/cybersecurity-for-power-grids/cybersecurity-for-power-grids.md",
           "id": "836e90e8-71a9-43fb-9857-d9e176e5ec23",
-          "state": "stub",
+          "state": "stable",
           "description": "Protecting the grid from cyberattacks."
         },
         {
@@ -656,7 +656,7 @@
           "type": "instruction",
           "path": "instruction/emergency-response-planning/emergency-response-planning.md",
           "id": "e22834a2-2b0b-4f2d-8549-1ae95c7eb7ad",
-          "state": "stub",
+          "state": "stable",
           "description": "Preparing for and responding to power outages."
         },
         {
@@ -664,7 +664,7 @@
           "type": "instruction",
           "path": "instruction/fault-tolerance/fault-tolerance.md",
           "id": "4e5c1135-1947-4f2f-be6c-f0a224e36213",
-          "state": "stub",
+          "state": "stable",
           "description": "Designing systems that can withstand component failures."
         },
         {
@@ -672,7 +672,7 @@
           "type": "instruction",
           "path": "instruction/redundancy/redundancy.md",
           "id": "987ca25e-7d66-492d-a354-d52909840d35",
-          "state": "stub",
+          "state": "stable",
           "description": "Using backup systems to improve reliability."
         },
         {
@@ -688,7 +688,7 @@
           "type": "instruction",
           "path": "instruction/microgrid-resilience/microgrid-resilience.md",
           "id": "b6dfe7f5-9d1e-4198-b0f0-da15c13c8c7f",
-          "state": "stub",
+          "state": "stable",
           "description": "Using microgrids to improve local power supply during outages."
         },
         {
@@ -696,7 +696,7 @@
           "type": "instruction",
           "path": "instruction/predictive-maintenance/predictive-maintenance.md",
           "id": "66c90cd2-fe99-4353-8324-e8ad774c3762",
-          "state": "stub",
+          "state": "stable",
           "description": "Using data analytics to predict equipment failures."
         },
         {
@@ -704,7 +704,7 @@
           "type": "instruction",
           "path": "instruction/data-analytics-for-grid-resilience/data-analytics-for-grid-resilience.md",
           "id": "bf49ab9b-c48e-4579-8472-ea93e59f24e9",
-          "state": "stub",
+          "state": "stable",
           "description": "Using data to improve grid monitoring and control."
         },
         {
@@ -712,7 +712,7 @@
           "type": "instruction",
           "path": "instruction/community-resilience/community-resilience.md",
           "id": "c67faa3c-f48c-49ea-ae6e-f7bdd0ac9715",
-          "state": "stub",
+          "state": "stable",
           "description": "Building community-level resilience to power outages."
         }
       ]
@@ -773,7 +773,7 @@
           "type": "instruction",
           "path": "instruction/advanced-metering-infrastructure/advanced-metering-infrastructure.md",
           "id": "e509d240-e096-443d-aaf2-a972b4e87064",
-          "state": "stub",
+          "state": "stable",
           "description": "Smart meters and advanced communication networks."
         },
         {
@@ -781,7 +781,7 @@
           "type": "instruction",
           "path": "instruction/transactive-energy/transactive-energy.md",
           "id": "31ac89dc-334f-49bd-b107-564b00a397ab",
-          "state": "stub",
+          "state": "stable",
           "description": "Real-time energy trading between consumers and producers."
         },
         {
@@ -789,7 +789,7 @@
           "type": "instruction",
           "path": "instruction/quantum-computing/quantum-computing.md",
           "id": "4c915485-21c0-4d3b-b13f-c4f4368a90f5",
-          "state": "stub",
+          "state": "stable",
           "description": "Potential applications of quantum computing in power systems."
         },
         {
@@ -797,7 +797,7 @@
           "type": "instruction",
           "path": "instruction/direct-current-microgrids/direct-current-microgrids.md",
           "id": "06af42f9-e1c9-4e81-9bbb-48c6787a8a96",
-          "state": "stub",
+          "state": "stable",
           "description": "DC power distribution systems for improved efficiency."
         },
         {
@@ -805,7 +805,7 @@
           "type": "instruction",
           "path": "instruction/the-role-of-policy-and-regulation/the-role-of-policy-and-regulation.md",
           "id": "6588a73f-0241-4843-b559-e99ede15a981",
-          "state": "stub",
+          "state": "stable",
           "description": "Shaping the future of the power grid through policy."
         },
         {
@@ -813,7 +813,7 @@
           "type": "instruction",
           "path": "instruction/the-future-workforce/the-future-workforce.md",
           "id": "16698658-5bfb-45fc-b15f-2123776c5f02",
-          "state": "stub",
+          "state": "stable",
           "description": "Skills and training needed for the future power grid."
         }
       ]
