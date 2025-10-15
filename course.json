@@ -159,7 +159,7 @@
           "type": "instruction",
           "path": "instruction/biomass-power/biomass-power.md",
           "id": "15ae8fb4-8176-4860-a63b-a3be4d6508ef",
-          "state": "stable",
+          "state": "stub",
           "description": "Electricity generation from biomass resources."
         },
         {
@@ -212,7 +212,7 @@
           "type": "instruction",
           "path": "instruction/transmission-line-characteristics/transmission-line-characteristics.md",
           "id": "e9421343-1e40-4695-85db-adf42ee514c0",
-          "state": "stable",
+          "state": "stub",
           "description": "Resistance, inductance, and capacitance of transmission lines."
         },
         {
@@ -321,7 +321,7 @@
           "type": "instruction",
           "path": "instruction/protective-relaying/protective-relaying.md",
           "id": "e63c7041-0294-4a8f-8c0a-f6d1d9bc3009",
-          "state": "stable",
+          "state": "stub",
           "description": "Principles and types of protective relays."
         },
         {
@@ -337,7 +337,7 @@
           "type": "instruction",
           "path": "instruction/fault-analysis/fault-analysis.md",
           "id": "8205aa72-5551-4f19-b602-e9660f007740",
-          "state": "stable",
+          "state": "stub",
           "description": "Symmetrical and unsymmetrical fault calculations."
         },
         {
@@ -377,7 +377,7 @@
           "type": "instruction",
           "path": "instruction/transformer-protection/transformer-protection.md",
           "id": "7c72f96d-88ba-4c41-8ebb-1ef9ad602e6c",
-          "state": "stable",
+          "state": "stub",
           "description": "Specific protection requirements for transformers."
         },
         {
@@ -385,7 +385,7 @@
           "type": "instruction",
           "path": "instruction/power-system-stability-control/power-system-stability-control.md",
           "id": "91fc9e7e-e79f-4070-acd3-585c84895510",
-          "state": "stable",
+          "state": "stub",
           "description": "Techniques for enhancing system stability."
         },
         {
@@ -422,7 +422,7 @@
           "type": "instruction",
           "path": "instruction/variability-and-intermittency-of-renewables/variability-and-intermittency-of-renewables.md",
           "id": "52f77b6e-4bf9-4344-ac29-2f9b91f8bdf0",
-          "state": "stable",
+          "state": "stub",
           "description": "Addressing the challenges of fluctuating renewable energy output."
         },
         {
@@ -725,7 +725,7 @@
           "type": "instruction",
           "path": "instruction/smart-cities/smart-cities.md",
           "id": "d00e730b-bf77-4f3a-9fe1-c3bd4ae7ff55",
-          "state": "stub",
+          "state": "stable",
           "description": "Integrating power systems with other urban infrastructure."
         },
         {
