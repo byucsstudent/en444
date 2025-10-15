@@ -119,7 +119,7 @@
           "type": "instruction",
           "path": "instruction/nuclear-power-plants/nuclear-power-plants.md",
           "id": "37084fd4-72b6-4ec8-9394-d703b408f106",
-          "state": "stable",
+          "state": "stub",
           "description": "Nuclear fission and reactor types."
         },
         {
@@ -127,7 +127,7 @@
           "type": "instruction",
           "path": "instruction/hydroelectric-power-plants/hydroelectric-power-plants.md",
           "id": "66069284-17fa-4d3d-89a5-332a164a456e",
-          "state": "stub",
+          "state": "stable",
           "description": "Hydropower generation and dam technology."
         },
         {
