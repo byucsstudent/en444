@@ -236,7 +236,7 @@
           "type": "instruction",
           "path": "instruction/substations/substations.md",
           "id": "feb23908-1c06-4e46-9cfa-b42315df23f1",
-          "state": "stub",
+          "state": "stable",
           "description": "Functions and components of substations."
         },
         {
