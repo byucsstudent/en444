@@ -175,7 +175,7 @@
           "type": "instruction",
           "path": "instruction/emerging-generation-technologies/emerging-generation-technologies.md",
           "id": "bb0655d5-ae5e-468c-a826-34f1480d58bb",
-          "state": "stable",
+          "state": "stub",
           "description": "Fuel cells, wave energy, and other innovative approaches."
         },
         {
@@ -183,7 +183,7 @@
           "type": "instruction",
           "path": "instruction/distributed-generation/distributed-generation.md",
           "id": "17cc622b-68fd-402d-9e56-4f4971c0180f",
-          "state": "stub",
+          "state": "stable",
           "description": "On-site power generation and microgrids."
         },
         {
