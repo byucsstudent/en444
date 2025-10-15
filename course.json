@@ -377,7 +377,7 @@
           "type": "instruction",
           "path": "instruction/transformer-protection/transformer-protection.md",
           "id": "7c72f96d-88ba-4c41-8ebb-1ef9ad602e6c",
-          "state": "stub",
+          "state": "stable",
           "description": "Specific protection requirements for transformers."
         },
         {
