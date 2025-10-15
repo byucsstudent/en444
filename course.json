@@ -220,7 +220,7 @@
           "type": "instruction",
           "path": "instruction/transmission-line-design/transmission-line-design.md",
           "id": "830f4f2e-edc0-45dd-baf0-d7ad380e75d4",
-          "state": "stable",
+          "state": "stub",
           "description": "Voltage levels, conductor selection, and insulation."
         },
         {
@@ -236,7 +236,7 @@
           "type": "instruction",
           "path": "instruction/substations/substations.md",
           "id": "feb23908-1c06-4e46-9cfa-b42315df23f1",
-          "state": "stub",
+          "state": "stable",
           "description": "Functions and components of substations."
         },
         {
