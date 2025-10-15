@@ -74,7 +74,7 @@
           "type": "instruction",
           "path": "instruction/power-system-protection/power-system-protection.md",
           "id": "71b631aa-04c0-4e3a-b3e9-e0e144ae8239",
-          "state": "stable",
+          "state": "stub",
           "description": "Overview of protection schemes and devices."
         },
         {
@@ -82,7 +82,7 @@
           "type": "instruction",
           "path": "instruction/power-system-stability/power-system-stability.md",
           "id": "829bebc4-f02f-4828-8ca4-3e0d63eb08fc",
-          "state": "stub",
+          "state": "stable",
           "description": "Introduction to transient and steady-state stability."
         },
         {
