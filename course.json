@@ -98,7 +98,7 @@
           "type": "instruction",
           "path": "instruction/symmetrical-components/symmetrical-components.md",
           "id": "e21141b8-fa78-4e28-99ee-bff80110a2b4",
-          "state": "stub",
+          "state": "stable",
           "description": "Understanding sequence networks."
         }
       ]
@@ -119,7 +119,7 @@
           "type": "instruction",
           "path": "instruction/nuclear-power-plants/nuclear-power-plants.md",
           "id": "37084fd4-72b6-4ec8-9394-d703b408f106",
-          "state": "stub",
+          "state": "stable",
           "description": "Nuclear fission and reactor types."
         },
         {
@@ -127,7 +127,7 @@
           "type": "instruction",
           "path": "instruction/hydroelectric-power-plants/hydroelectric-power-plants.md",
           "id": "66069284-17fa-4d3d-89a5-332a164a456e",
-          "state": "stub",
+          "state": "stable",
           "description": "Hydropower generation and dam technology."
         },
         {
@@ -143,7 +143,7 @@
           "type": "instruction",
           "path": "instruction/wind-power/wind-power.md",
           "id": "50c0794d-1836-4b91-932b-b6b1c3225341",
-          "state": "stub",
+          "state": "stable",
           "description": "Wind turbine technology and wind farm operation."
         },
         {
@@ -151,7 +151,7 @@
           "type": "instruction",
           "path": "instruction/geothermal-power/geothermal-power.md",
           "id": "a0238291-fc1b-43ce-90c5-8a49f8c49c8f",
-          "state": "stub",
+          "state": "stable",
           "description": "Harnessing geothermal energy for electricity generation."
         },
         {
@@ -159,7 +159,7 @@
           "type": "instruction",
           "path": "instruction/biomass-power/biomass-power.md",
           "id": "15ae8fb4-8176-4860-a63b-a3be4d6508ef",
-          "state": "stub",
+          "state": "stable",
           "description": "Electricity generation from biomass resources."
         },
         {
@@ -167,7 +167,7 @@
           "type": "instruction",
           "path": "instruction/combined-cycle-power-plants/combined-cycle-power-plants.md",
           "id": "27e7c54f-1769-4290-9824-ce9365b56a2e",
-          "state": "stub",
+          "state": "stable",
           "description": "Improving efficiency with combined cycle technology."
         },
         {
@@ -175,7 +175,7 @@
           "type": "instruction",
           "path": "instruction/emerging-generation-technologies/emerging-generation-technologies.md",
           "id": "bb0655d5-ae5e-468c-a826-34f1480d58bb",
-          "state": "stub",
+          "state": "stable",
           "description": "Fuel cells, wave energy, and other innovative approaches."
         },
         {
@@ -183,7 +183,7 @@
           "type": "instruction",
           "path": "instruction/distributed-generation/distributed-generation.md",
           "id": "17cc622b-68fd-402d-9e56-4f4971c0180f",
-          "state": "stub",
+          "state": "stable",
           "description": "On-site power generation and microgrids."
         },
         {
@@ -191,7 +191,7 @@
           "type": "instruction",
           "path": "instruction/the-economics-of-power-generation/the-economics-of-power-generation.md",
           "id": "2686e616-37ba-4a07-b38d-01a2ccb5966b",
-          "state": "stub",
+          "state": "stable",
           "description": "Levelized cost of energy and market dynamics."
         },
         {
