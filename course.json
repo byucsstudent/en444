@@ -741,7 +741,7 @@
           "type": "instruction",
           "path": "instruction/vehicle-to-grid-technology/vehicle-to-grid-technology.md",
           "id": "c4d36096-bb6c-4eb8-93c0-b0e5379e998a",
-          "state": "stub",
+          "state": "stable",
           "description": "Using electric vehicles as energy storage devices."
         },
         {
