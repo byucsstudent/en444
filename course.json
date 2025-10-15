@@ -191,7 +191,7 @@
           "type": "instruction",
           "path": "instruction/the-economics-of-power-generation/the-economics-of-power-generation.md",
           "id": "2686e616-37ba-4a07-b38d-01a2ccb5966b",
-          "state": "stable",
+          "state": "stub",
           "description": "Levelized cost of energy and market dynamics."
         },
         {
@@ -199,7 +199,7 @@
           "type": "instruction",
           "path": "instruction/environmental-impacts-of-power-generation/environmental-impacts-of-power-generation.md",
           "id": "9a97cfe1-ca4c-47bb-b4fc-51c61aec18bb",
-          "state": "stub",
+          "state": "stable",
           "description": "Comparing the environmental footprint of different technologies."
         }
       ]
