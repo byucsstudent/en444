@@ -733,7 +733,7 @@
           "type": "instruction",
           "path": "instruction/electric-vehicles/electric-vehicles.md",
           "id": "ea09b4d1-66ee-4e97-a968-7d0ac709e625",
-          "state": "stub",
+          "state": "stable",
           "description": "The impact of electric vehicles on the power grid."
         },
         {
